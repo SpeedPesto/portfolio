@@ -1,0 +1,584 @@
+{
+  "characters": [
+    {
+      "name": "Hinata Hyûga",
+      "gender": "Femme",
+      "puissance": 4200,
+      "type": "Ninja",
+      "chakra": "Katon, Raiton",
+      "village": "Village Caché de Konoha",
+      "rank": "Chûnin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/4/43/Hinata_Partie_II.png/revision/latest/scale-to-width-down/1000?cb=20150508121512&path-prefix=fr"
+    },
+    {
+      "name": "Zabuza Momochi",
+      "gender": "Homme",
+      "puissance": 6100,
+      "type": "Nukenin",
+      "chakra": "Suiton",
+      "village": "Village Caché de Kiri",
+      "rank": "Déserteur",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/3/37/Zabuza_Momochi.png/revision/latest/scale-to-width-down/1000?cb=20160220221228&path-prefix=fr"
+    },
+    {
+      "name": "Tsunade",
+      "gender": "Femme",
+      "puissance": 9200,
+      "type": "Sannin",
+      "chakra": "Katon, Suiton, Doton, Raiton, Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Hokage",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/e/e6/Tsunade2.png/revision/latest/scale-to-width-down/1000?cb=20161120222345&path-prefix=fr"
+    },
+    {
+      "name": "Tenten",
+      "gender": "Femme",
+      "puissance": 2800,
+      "type": "Ninja",
+      "chakra": "Fûton, Doton",
+      "village": "Village Caché de Konoha",
+      "rank": "Chûnin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/5/56/Tenten_Partie_II.png/revision/latest/scale-to-width-down/1000?cb=20170812182022&path-prefix=fr"
+    },
+    {
+      "name": "Temari",
+      "gender": "Femme",
+      "puissance": 5400,
+      "type": "Ninja",
+      "chakra": "Fûton",
+      "village": "Village Caché de Suna",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/3/33/Temari_Partie_II.png/revision/latest/scale-to-width-down/1000?cb=20161106180649&path-prefix=fr"
+    },
+    {
+      "name": "Suigetsu Hôzuki",
+      "gender": "Homme",
+      "puissance": 5000,
+      "type": "Nukenin",
+      "chakra": "Suiton",
+      "village": "Village Caché de Kiri",
+      "rank": "Déserteur",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/3/3b/Suigetsu_H%C3%B4zuki.png/revision/latest/scale-to-width-down/1000?cb=20130428231214&path-prefix=fr"
+    },
+    {
+      "name": "Son Gokû",
+      "gender": "Homme",
+      "puissance": 15000,
+      "type": "Bijû",
+      "chakra": "Katon, Doton, Yôton",
+      "village": "Village Caché d'Iwa",
+      "rank": "Bijû",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/0/06/Son_Gok%C3%BB.png/revision/latest/scale-to-width-down/1000?cb=20140520224106&path-prefix=fr"
+    },
+    {
+      "name": "Shisui Uchiwa",
+      "gender": "Homme",
+      "puissance": 8700,
+      "type": "Ninja",
+      "chakra": "Katon, Fûton, Raiton",
+      "village": "Village Caché de Konoha",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/6/6c/Uchiwa_Shisui.png/revision/latest/scale-to-width-down/1000?cb=20140413192831&path-prefix=fr"
+    },
+    {
+      "name": "Shino Aburame",
+      "gender": "Homme",
+      "puissance": 3600,
+      "type": "Ninja",
+      "chakra": "Doton, Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/f/f0/Shino_Aburame.png/revision/latest/scale-to-width-down/1000?cb=20150512221726&path-prefix=fr"
+    },
+    {
+      "name": "Saiken",
+      "gender": "Homme",
+      "puissance": 14500,
+      "type": "Bijû",
+      "chakra": "Suiton",
+      "village": "Village Caché de Kiri",
+      "rank": "Bijû",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/4/4a/Six-Tails_Anime.jpg/revision/latest/scale-to-width-down/1000?cb=20120212223235&path-prefix=fr"
+    },
+    {
+      "name": "Sasuke Uchiwa",
+      "gender": "Homme",
+      "puissance": 18000,
+      "type": "Ninja",
+      "chakra": "Katon, Raiton, Fûton, Doton, Suiton",
+      "village": "Village Caché de Konoha",
+      "rank": "Genin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/8/8e/Sasuke_portrait.png/revision/latest/scale-to-width-down/1000?cb=20150802094315&path-prefix=fr"
+    },
+    {
+      "name": "Sasori",
+      "gender": "Homme",
+      "puissance": 7600,
+      "type": "Nukenin",
+      "chakra": "Fûton",
+      "village": "Village Caché de Suna",
+      "rank": "Déserteur",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/f/f7/Sasori.png/revision/latest/scale-to-width-down/1000?cb=20161005210021&path-prefix=fr"
+    },
+    {
+      "name": "Sakura Haruno",
+      "gender": "Femme",
+      "puissance": 8300,
+      "type": "Ninja",
+      "chakra": "Doton, Suiton, Yin, Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/c/cd/Sakura_partie_2.jpg/revision/latest?cb=20150312215407&path-prefix=fr"
+    },
+    {
+      "name": "Saï",
+      "gender": "Homme",
+      "puissance": 4100,
+      "type": "Anbu",
+      "chakra": "Suiton, Doton, Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Anbu",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/e/e2/Sa%C3%AF.png/revision/latest/scale-to-width-down/1000?cb=20160830163903&path-prefix=fr"
+    },
+    {
+      "name": "Rock Lee",
+      "gender": "Homme",
+      "puissance": 6500,
+      "type": "Ninja",
+      "chakra": "Aucun",
+      "village": "Village Caché de Konoha",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/8/81/Rock_Lee.png/revision/latest/scale-to-width-down/1000?cb=20160219192537&path-prefix=fr"
+    },
+    {
+      "name": "Orochimaru",
+      "gender": "Homme",
+      "puissance": 12500,
+      "type": "Sannin",
+      "chakra": "Fûton, Doton, Suiton, Katon, Raiton",
+      "village": "Village Caché d'Oto",
+      "rank": "Déserteur",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/5/5a/Orochimaru.png/revision/latest/scale-to-width-down/1000?cb=20160822185704&path-prefix=fr"
+    },
+    {
+      "name": "Obito Uchiwa",
+      "gender": "Homme",
+      "puissance": 21000,
+      "type": "Nukenin",
+      "chakra": "Katon, Mokuton, Raiton, Doton, Suiton, Yin-Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Déserteur",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/0/0c/Obito_Uchiwa.png/revision/latest/scale-to-width-down/1000?cb=20160620152653&path-prefix=fr"
+    },
+    {
+      "name": "Neji Hyûga",
+      "gender": "Homme",
+      "puissance": 6200,
+      "type": "Ninja",
+      "chakra": "Katon, Suiton",
+      "village": "Village Caché de Konoha",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/0/07/Neji_Part_1.png/revision/latest?cb=20150701095606&path-prefix=fr"
+    },
+    {
+      "name": "Naruto Uzumaki",
+      "gender": "Homme",
+      "puissance": 26000,
+      "type": "Jinchûriki",
+      "chakra": "Fûton, Doton, Suiton, Katon, Raiton, Yin-Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Hokage",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/3/36/Naruto_Uzumaki.png/revision/latest/scale-to-width-down/1000?cb=20170212111141&path-prefix=fr"
+    },
+    {
+      "name": "Nagato",
+      "gender": "Homme",
+      "puissance": 17000,
+      "type": "Nukenin",
+      "chakra": "Katon, Fûton, Doton, Suiton, Raiton, Yin-Yang",
+      "village": "Village Caché d'Ame",
+      "rank": "Chef de l'Akatsuki",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/4/46/Nagato.png/revision/latest/scale-to-width-down/1000?cb=20260326224544&path-prefix=fr"
+    },
+    {
+      "name": "Madara Uchiwa",
+      "gender": "Homme",
+      "puissance": 32000,
+      "type": "Ninja",
+      "chakra": "Katon, Fûton, Doton, Raiton, Mokuton, Yin-Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Chef du Clan Uchiwa",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/0/0e/Madara_Uchiwa3.png/revision/latest/scale-to-width-down/1000?cb=20260328004520&path-prefix=fr"
+    },
+    {
+      "name": "Kushina Uzumaki",
+      "gender": "Femme",
+      "puissance": 7800,
+      "type": "Jinchûriki",
+      "chakra": "Fûton, Suiton, Yin",
+      "village": "Village Caché de Konoha",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/0/08/Kushina_Uzumaki_2.png/revision/latest/scale-to-width-down/1000?cb=20170813190811&path-prefix=fr"
+    },
+    {
+      "name": "Kurama",
+      "gender": "Homme",
+      "puissance": 24000,
+      "type": "Bijû",
+      "chakra": "Yin-Yang",
+      "village": "Aucun",
+      "rank": "Bijû",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/0/09/Kurama.png/revision/latest/scale-to-width-down/1000?cb=20150525190416&path-prefix=fr"
+    },
+    {
+      "name": "Konan",
+      "gender": "Femme",
+      "puissance": 8500,
+      "type": "Nukenin",
+      "chakra": "Suiton, Fûton, Yang",
+      "village": "Village Caché d'Ame",
+      "rank": "Akatsuki",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/5/57/Konan.png/revision/latest/scale-to-width-down/1000?cb=20210826082349&path-prefix=fr"
+    },
+    {
+      "name": "Kokuô",
+      "gender": "Homme",
+      "puissance": 14500,
+      "type": "Bijû",
+      "chakra": "Katon, Suiton, Yôton",
+      "village": "Village Caché d'Iwa",
+      "rank": "Bijû",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/9/96/Gobi.jpg/revision/latest?cb=20111110180506&path-prefix=fr"
+    },
+    {
+      "name": "Kisame Hoshigaki",
+      "gender": "Homme",
+      "puissance": 12000,
+      "type": "Nukenin",
+      "chakra": "Suiton",
+      "village": "Village Caché de Kiri",
+      "rank": "Akatsuki",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/c/c9/Kisame_Hoshigaki.png/revision/latest/scale-to-width-down/1000?cb=20201231011429&path-prefix=fr"
+    },
+    {
+      "name": "Killer Bee",
+      "gender": "Homme",
+      "puissance": 15000,
+      "type": "Jinchûriki",
+      "chakra": "Raiton, Suiton",
+      "village": "Village Caché de Kumo",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/3/36/Killer_Bee.png/revision/latest/scale-to-width-down/1000?cb=20110620175645&path-prefix=fr"
+    },
+    {
+      "name": "Kiba Inuzuka",
+      "gender": "Homme",
+      "puissance": 3400,
+      "type": "Ninja",
+      "chakra": "Doton",
+      "village": "Village Caché de Konoha",
+      "rank": "Chûnin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/1/1f/Kiba_Inuzuka_Partie_II.png/revision/latest?cb=20150512180004&path-prefix=fr"
+    },
+    {
+      "name": "Karin",
+      "gender": "Femme",
+      "puissance": 4300,
+      "type": "Ninja",
+      "chakra": "Yang",
+      "village": "Village Caché d'Oto",
+      "rank": "Capteur Sensoriel",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/5/50/Karin.png/revision/latest/scale-to-width-down/1000?cb=20201231015434&path-prefix=fr"
+    },
+    {
+      "name": "Kankurô",
+      "gender": "Homme",
+      "puissance": 5700,
+      "type": "Ninja",
+      "chakra": "Kugutsu, Fûton",
+      "village": "Village Caché de Suna",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/e/e3/Kankur%C3%B4_Part_II.png/revision/latest/scale-to-width-down/1000?cb=20150709182636&path-prefix=fr"
+    },
+    {
+      "name": "Kakuzu",
+      "gender": "Homme",
+      "puissance": 11000,
+      "type": "Nukenin",
+      "chakra": "Katon, Fûton, Raiton, Doton, Suiton",
+      "village": "Village Caché de Taki",
+      "rank": "Akatsuki",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/5/57/Kakuzu.png/revision/latest/scale-to-width-down/1000?cb=20160418210749&path-prefix=fr"
+    },
+    {
+      "name": "Kakashi Hatake",
+      "gender": "Homme",
+      "puissance": 13500,
+      "type": "Ninja",
+      "chakra": "Raiton, Suiton, Doton, Katon, Fûton",
+      "village": "Village Caché de Konoha",
+      "rank": "Hokage",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/2/27/Kakashi_Hatake.png/revision/latest/scale-to-width-down/1000?cb=20141108182016&path-prefix=fr"
+    },
+    {
+      "name": "Kabuto Yakushi",
+      "gender": "Homme",
+      "puissance": 14000,
+      "type": "Nukenin",
+      "chakra": "Katon, Doton, Yin",
+      "village": "Village Caché d'Oto",
+      "rank": "Espion / Sage",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/d/d2/Kabuto_Partie_II.png/revision/latest/scale-to-width-down/1000?cb=20200508100822&path-prefix=fr"
+    },
+    {
+      "name": "Jûgo",
+      "gender": "Homme",
+      "puissance": 7600,
+      "type": "Ninja",
+      "chakra": "Transformation Naturelle",
+      "village": "Village Caché d'Oto",
+      "rank": "Membre de Taka",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/a/ad/J%C3%BBgo.png/revision/latest/scale-to-width-down/1000?cb=20160424133553&path-prefix=fr"
+    },
+    {
+      "name": "Jûbi",
+      "gender": "Asexué",
+      "puissance": 50000,
+      "type": "Bijû Originel",
+      "chakra": "Tous les Chakras",
+      "village": "Aucun",
+      "rank": "Dieu du Chakra",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/f/fc/J%C3%BBbi.png/revision/latest/scale-to-width-down/1000?cb=20171117135329&path-prefix=fr"
+    },
+    {
+      "name": "Jiraya",
+      "gender": "Homme",
+      "puissance": 14500,
+      "type": "Sannin",
+      "chakra": "Katon, Doton, Suiton, Fûton",
+      "village": "Village Caché de Konoha",
+      "rank": "Sannin Légendaire",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/a/aa/Jiraya.PNG/revision/latest/scale-to-width-down/1000?cb=20130117000023&path-prefix=fr"
+    },
+    {
+      "name": "Itachi Uchiwa",
+      "gender": "Homme",
+      "puissance": 19000,
+      "type": "Nukenin",
+      "chakra": "Katon, Suiton, Fûton, Yin",
+      "village": "Village Caché de Konoha",
+      "rank": "Akatsuki",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/e/ef/Itachi_Uchiwa_2.png/revision/latest/scale-to-width-down/1000?cb=20161101162942&path-prefix=fr"
+    },
+    {
+      "name": "Isobu",
+      "gender": "Homme",
+      "puissance": 14200,
+      "type": "Bijû",
+      "chakra": "Suiton",
+      "village": "Village Caché de Kiri",
+      "rank": "Bijû",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/6/67/Sanbi.png/revision/latest/scale-to-width-down/1000?cb=20170121154147&path-prefix=fr"
+    },
+    {
+      "name": "Ino Yamanaka",
+      "gender": "Femme",
+      "puissance": 3900,
+      "type": "Ninja",
+      "chakra": "Yin",
+      "village": "Village Caché de Konoha",
+      "rank": "Chûnin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/8/89/Ino2.png/revision/latest/scale-to-width-down/1000?cb=20150525121609&path-prefix=fr"
+    },
+    {
+      "name": "Hiruzen Sarutobi",
+      "gender": "Homme",
+      "puissance": 17000,
+      "type": "Ninja",
+      "chakra": "Katon, Fûton, Doton, Suiton, Raiton, Yin-Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Hokage",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/e/e4/Hiruzen_Sarutobi.png/revision/latest?cb=20150507161512&path-prefix=fr"
+    },
+    {
+      "name": "Hashirama Senju",
+      "gender": "Homme",
+      "puissance": 30000,
+      "type": "Ninja",
+      "chakra": "Mokuton, Doton, Suiton, Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Premier Hokage",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/7/7e/Hashirama_Senju.png/revision/latest/scale-to-width-down/1000?cb=20250929221130&path-prefix=fr"
+    },
+    {
+      "name": "Hanzô",
+      "gender": "Homme",
+      "puissance": 12500,
+      "type": "Ninja",
+      "chakra": "Suiton, Katon",
+      "village": "Village Caché d'Ame",
+      "rank": "Chef d'Ame",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/6/6b/Hanz%C3%B4.png/revision/latest/scale-to-width-down/1000?cb=20150525181414&path-prefix=fr"
+    },
+    {
+      "name": "Haku",
+      "gender": "Homme",
+      "puissance": 6800,
+      "type": "Ninja",
+      "chakra": "Suiton, Fûton, Hyôton",
+      "village": "Village Caché de Kiri",
+      "rank": "Ninja Déserteur",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/9/90/Haku.png/revision/latest/scale-to-width-down/1000?cb=20150809114957&path-prefix=fr"
+    },
+    {
+      "name": "Gyûki",
+      "gender": "Homme",
+      "puissance": 22000,
+      "type": "Bijû",
+      "chakra": "Raiton, Encre",
+      "village": "Village Caché de Kumo",
+      "rank": "Bijû",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/3/3c/Gy%C3%BBki.png/revision/latest/scale-to-width-down/1000?cb=20140520230600&path-prefix=fr"
+    },
+    {
+      "name": "Gamabunta",
+      "gender": "Homme",
+      "puissance": 9800,
+      "type": "Invocation",
+      "chakra": "Suiton",
+      "village": "Mont Myôboku",
+      "rank": "Chef des Crapauds",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/8/84/Gamabunta.png/revision/latest/scale-to-width-down/1000?cb=20150802160052&path-prefix=fr"
+    },
+    {
+      "name": "Gaï Maito",
+      "gender": "Homme",
+      "puissance": 23000,
+      "type": "Ninja",
+      "chakra": "Aucun",
+      "village": "Village Caché de Konoha",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/4/42/Ga%C3%AF_Maito.png/revision/latest/scale-to-width-down/1000?cb=20260207104002&path-prefix=fr"
+    },
+    {
+      "name": "Gaara",
+      "gender": "Homme",
+      "puissance": 13200,
+      "type": "Kazekage",
+      "chakra": "Doton, Magnétisme",
+      "village": "Village Caché de Suna",
+      "rank": "Kazekage",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/2/24/Gaara_Partie_II.png/revision/latest/scale-to-width-down/1000?cb=20150525191817&path-prefix=fr"
+    },
+    {
+      "name": "Deidara",
+      "gender": "Homme",
+      "puissance": 11800,
+      "type": "Nukenin",
+      "chakra": "Doton, Bakuton",
+      "village": "Village Caché d'Iwa",
+      "rank": "Akatsuki",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/0/06/Deidara.png/revision/latest?cb=20131007234317&path-prefix=fr"
+    },
+    {
+      "name": "Danzô Shimura",
+      "gender": "Homme",
+      "puissance": 12800,
+      "type": "Ninja",
+      "chakra": "Fûton, Mokuton, Yin",
+      "village": "Village Caché de Konoha",
+      "rank": "Chef de la Racine",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/1/18/Danz%C3%B4.png/revision/latest/scale-to-width-down/1000?cb=20250314232401&path-prefix=fr"
+    },
+    {
+      "name": "Chômei",
+      "gender": "Homme",
+      "puissance": 16000,
+      "type": "Bijû",
+      "chakra": "Poudre, Fûton",
+      "village": "Village Caché de Taki",
+      "rank": "Bijû",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/5/52/Nanabi.jpg/revision/latest/scale-to-width-down/1000?cb=20130603191134&path-prefix=fr"
+    },
+    {
+      "name": "Chôji Akimichi",
+      "gender": "Homme",
+      "puissance": 5900,
+      "type": "Ninja",
+      "chakra": "Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Chûnin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/3/34/Ch%C3%B4ji_Partie_II.png/revision/latest?cb=20150525140357&path-prefix=fr"
+    },
+    {
+      "name": "Asuma Sarutobi",
+      "gender": "Homme",
+      "puissance": 8700,
+      "type": "Ninja",
+      "chakra": "Fûton",
+      "village": "Village Caché de Konoha",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/7/7c/Asuma.png/revision/latest/scale-to-width-down/1000?cb=20210117153743&path-prefix=fr"
+    },
+    {
+      "name": "Anko Mitarashi",
+      "gender": "Femme",
+      "puissance": 5100,
+      "type": "Ninja",
+      "chakra": "Katon, Doton",
+      "village": "Village Caché de Konoha",
+      "rank": "Jônin",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/f/f3/Anko.png/revision/latest/scale-to-width-down/1000?cb=20240529153229&path-prefix=fr"
+    },
+    {
+      "name": "Kimimaro",
+      "gender": "Homme",
+      "puissance": 9800,
+      "type": "Ninja",
+      "chakra": "Shikotsumyaku, Doton",
+      "village": "Village Caché d'Oto",
+      "rank": "Bras droit d'Orochimaru",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/a/a7/Kimimaro.png/revision/latest?cb=20141109182436&path-prefix=fr"
+    },
+    {
+      "name": "Shukaku",
+      "gender": "Homme",
+      "puissance": 17000,
+      "type": "Bijû",
+      "chakra": "Magnétisme, Fûton",
+      "village": "Village Caché de Suna",
+      "rank": "Bijû",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/9/99/Shukaku.png/revision/latest/scale-to-width-down/1000?cb=20150510221210&path-prefix=fr"
+    },
+    {
+      "name": "Matatabi",
+      "gender": "Femme",
+      "puissance": 17500,
+      "type": "Bijû",
+      "chakra": "Katon",
+      "village": "Village Caché de Kumo",
+      "rank": "Bijû",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/a/a7/Matatabi.png/revision/latest/scale-to-width-down/1000?cb=20151018131635&path-prefix=fr"
+    },
+    {
+      "name": "Tobirama Senju",
+      "gender": "Homme",
+      "puissance": 24000,
+      "type": "Ninja",
+      "chakra": "Suiton, Raiton, Doton",
+      "village": "Village Caché de Konoha",
+      "rank": "Deuxième Hokage",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/b/be/Tobirama_Senju.png/revision/latest/scale-to-width-down/1000?cb=20250929221237&path-prefix=fr"
+    },
+    {
+      "name": "Minato Namikaze",
+      "gender": "Homme",
+      "puissance": 27000,
+      "type": "Ninja",
+      "chakra": "Fûton, Raiton, Yin-Yang",
+      "village": "Village Caché de Konoha",
+      "rank": "Quatrième Hokage",
+      "img_src": "https://static.wikia.nocookie.net/naruto/images/e/e7/Minato_Namikaze_V2.PNG/revision/latest/scale-to-width-down/1000?cb=20200611113232&path-prefix=fr"
+    }
+  ]
+}
