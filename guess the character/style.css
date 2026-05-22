@@ -18,10 +18,17 @@ body {
 }
 
 h1 {
-    font-family: 'Bevan', cursive;
-    color: #221061;
-    text-shadow: white 0px 0px 5px;
+    font-family: 'Stack Sans Headline', sans-serif;
+    margin-bottom: 3px;
+}
+
+#attemps {
     margin-bottom: 20px;
+    font-size: 16px;
+    color: #c4b8f07a;
+    padding: 5px 10px;
+    width: 35%;
+    border-bottom: 1px solid rgba(120, 100, 200, 0.18);
 }
 
 #question-bord {
@@ -29,7 +36,7 @@ h1 {
     box-shadow: 0 0 0 1px rgba(120, 100, 200, 0.12), 0 8px 32px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(120, 100, 200, 0.18);
     border-radius: 16px;
-    min-width: 70%;
+    min-width: 1050px;
     height: auto;
     padding: 30px;
     margin: 10px;
@@ -65,7 +72,7 @@ h1 {
     background-color: #1a1a24;
     color: #e8e6f0;
     font-size: 16px;
-    width: 100%;
+    width: 95%;
     padding: 10px 14px;
     border: 1px solid rgba(120, 100, 200, 0.3);
     border-radius: 10px;
@@ -123,7 +130,6 @@ h1 {
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 2% 0;
     background-color: #16151f;
     color: #d4cff0;
     border-bottom: 1px solid rgba(120, 100, 200, 0.1);
@@ -149,14 +155,8 @@ h1 {
 }
 
 #submit-characters {
-    background: #111118;
-    box-shadow: 0 0 0 1px rgba(120, 100, 200, 0.12), 0 8px 32px rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(120, 100, 200, 0.18);
-    border-radius: 16px;
-    min-width: 70%;
     height: auto;
-    padding: 30px;
-    margin: 10px;
+    font-size: 10px;
 
     display: flex;
     flex-direction: column;
@@ -173,12 +173,13 @@ h1 {
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 2% 0;
-    background-color: #16151f;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border: 1px solid rgba(141, 130, 187, 0.1);
+    box-shadow: 0 0 0 1px rgba(120, 100, 200, 0.12), 0 8px 32px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
     color: #d4cff0;
-    border-bottom: 1px solid rgba(120, 100, 200, 0.1);
     font-size: 1em;
-    width: 100%;
     transition: background-color 0.15s ease;
 }
 
@@ -187,9 +188,8 @@ h1 {
 }
 
 #submit-characters img {
-    width: 10%;
+    width: 150px;
     height: auto;
-    margin: 0 3%;
     flex-shrink: 0;
     border-radius: 6px;
 }
@@ -197,11 +197,11 @@ h1 {
 #submit-characters span {
     right: 100%;
 
-    width: 15vh;
-    height: 15vh;
+    width: 120px;
+    height: 120px;
 
     border: white solid 1px;
-    margin: 0 1%;
+    margin: 0 5px;
 
     display: flex;
     align-items: center;
@@ -209,7 +209,8 @@ h1 {
 }
 
 #submit-characters p {
-    width: 10%;
+    width: 150px;
+    font-size: 12px;
 }
 
 #submit-characters span.same {

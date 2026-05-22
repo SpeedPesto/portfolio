@@ -12,6 +12,9 @@ projets.forEach(projet => {
                 break;
             case "kikise-with-pixelised-image":
                 window.open('guess the character with pixelised image/index.html', '_blank');
+                break;
+            case "toujours-plus-fort":
+                window.open('toujours plus fort/index.html', '_blank');
                 break;  
             default:
                 alert("Projet non trouvé !");

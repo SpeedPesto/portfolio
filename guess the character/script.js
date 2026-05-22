@@ -1,4 +1,4 @@
-const title = document.getElementById('title');
+const attemps = document.getElementById('attemps');
 const character_input = document.getElementById('character-input');
 const submit_btn = document.getElementById('submit-btn');
 const dd = document.getElementById('dd');
@@ -127,7 +127,7 @@ submit_btn.addEventListener('click', () => {
   if (isSameRank && isSameVillage && isSameChakras && isSameType && isSameGender && isSamePuissance && isSameName) {
     alert("Bravo c'était effectivement : " + caracter.name);
   }else {
-    title.textContent = `Guess the character | attempt ${document.getElementById('submit-characters').children.length + 1}`;
+    attemps.textContent = `Attempts: ${document.getElementById('submit-characters').children.length + 1}`;
   }
 
   li.appendChild(img);
