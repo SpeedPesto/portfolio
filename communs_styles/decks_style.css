@@ -1,0 +1,226 @@
+#decks {
+  background-color: #5a5aff1a;
+  border: 1px solid #2e2e3a;
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-shadow: 0 0 32px #ffffff;
+  padding: 1rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background-color 0.2s ease, text-shadow 0.2s ease;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  overflow: hidden;
+}
+
+#decks::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('../images/deck.jpg') no-repeat center center / cover;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#decks::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: conic-gradient(from 0deg, #5a5aff var(--angle), transparent var(--angle));
+    box-shadow: 0 0 32px #5a5aff, 0 0 64px #5a5aff;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    --angle: 0deg;
+    z-index: 2;
+    transition: none;
+}
+
+#decks:hover::after {
+    animation: draw-border 0.3s linear forwards;
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes draw-border {
+    from { --angle: 0deg; }
+    to   { --angle: 360deg; }
+}
+
+#decks > * {
+    position: relative;
+    z-index: 3;
+}
+
+.deckShow {
+    filter: blur(4px) brightness(0.5);
+}
+
+#deck-container {
+    width: 40.2%;
+    height: 40%;
+    position: absolute;
+    top: 5rem;
+    right: 10%;
+    background-color: #2b2b2b;
+    z-index: 1;
+    border: 1px solid #5a5aff;
+    box-shadow: 0 0 16px #000000, 0 0 32px #5a5aff;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-20px);
+
+    transition: opacity 0.3s ease, transform 0.2s ease, visibility 0.3s ease;
+}
+
+#deck-container.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+    
+#deck-container button {
+    background-color: transparent;
+    position: relative;
+    margin: 15px;
+    width: 14rem;
+    height: 6rem;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border: 1px solid #f3f3f3;
+    border-radius: 6px;
+    color: #000000;
+    text-shadow: 0 0 4px rgb(255, 255, 255);
+    box-shadow: 0 0 2px #ffffff, 0 0 4px #ffffff;
+
+    transition: border-color 0.2s, color 0.2s, background-color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#deck-container button:hover {
+    background-color: #5a5aff1a;
+    border-color: #5a5aff;
+    color: #ffffff;
+    text-shadow: 0 0 32px #ffffff;
+    transform: scale(1.05) translateY(-2px);
+    box-shadow: 0 0 4px #5a5aff, 0 0 8px #5a5aff;
+}
+
+#deck-container #validate {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 5rem;
+    height: 2rem;
+    border-color: #007000;
+    color: #ffffff;
+    text-shadow: 0 0 4px rgb(0, 112, 0);
+    box-shadow: 0 0 2px #007000, 0 0 4px #007000;
+}
+
+#deck-container #validate:hover {
+    background-color: #0070001a;
+    border-color: #007000;
+    color: #00ff00;
+    text-shadow: 0 0 32px #00ff00;
+    box-shadow: 0 0 4px #007000, 0 0 8px #007000;
+}
+
+#naruto-decks::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('../images/Naruto_Deck.jpg') no-repeat center center / cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#jojo-decks::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('../images/Jojo_Deck.jpg') no-repeat center center / cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#deck-container button.character {
+    background-color: transparent;
+    position: relative;
+    top: 5%;
+    margin: 15px;
+    width: 6rem;
+    height: 80%;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border: 1px solid #757575;
+    border-radius: 6px;
+    color: #000000;
+    text-shadow: 0 0 4px rgb(255, 255, 255);
+    box-shadow: 0 0 2px #727272, 0 0 4px #727272;
+    transition: border-color 0.2s, color 0.2s, background-color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#deck-container button.character::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--bg-image) no-repeat center center / cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#deck-container button.character.active {
+    background-color: #44e2441a;
+    border-color: #26b445;
+    color: #ffffff;
+    text-shadow: 0 0 32px #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 0 4px #26b445, 0 0 8px #26b445;
+}
+
+#deck-container button.retour {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    width: 5rem;
+    height: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border: 1px solid #700000;
+    border-radius: 6px;
+    color: #b32525;
+    text-shadow: 0 0 4px rgb(255, 0, 0);
+    box-shadow: 0 0 2px #700000, 0 0 4px #700000;
+
+    transition: border-color 0.2s, color 0.2s, background-color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#deck-container button.hide {
+    display: none;
+}
+
+#deck-container button.retour:hover {
+    background-color: #7000001a;
+    border-color: #700000;
+    color: #ff0000;
+    text-shadow: 0 0 32px #ff0000;
+    box-shadow: 0 0 4px #700000, 0 0 8px #700000;
+}

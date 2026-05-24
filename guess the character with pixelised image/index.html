@@ -5,9 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../communs_styles/back_style.css">
+    <link rel="stylesheet" href="../communs_styles/decks_style.css">
+    <link rel="stylesheet" href="../communs_styles/loader.css">
 </head>
 <body>
     <h1>Kikisé avek image pixelisé</h1>
+
+    <!----------------BACK----------------->
+    <button id="back">↩ Retour</button>
+    <!----------------BACK----------------->
+
+    <!----------------DECKS----------------->
+    <button id="decks">Choisirs les decks</button>
+
+    <div id="deck-container">
+        <button id="naruto-decks">Decks Naruto</button>
+        <button id="jojo-decks">Decks Jojo</button>
+
+        <button id="validate">Valider</button>
+
+         <!--PERSONNAGES DE NARUTO-->
+        <button id="naruto-classic" class="character">Classics Characters</button>
+        <button id="naruto-7epeistes" class="character">7 épéistes Characters</button>
+        <button id="naruto-pain" class="character">Pain Characters</button>
+        <button id="naruto-bidjus-et-invocations" class="character">Bidju & Invocation</button>
+        <button id="naruto-quator" class="character">Quator Characters</button>
+
+        <!--PERSONNAGES DE JOJO-->
+        <button id="jojo-characters" class="character">Personnages</button>
+        <button id="jojo-stands" class="character">Stands</button>
+
+        <button id="retour" class="retour">✘</button>
+    </div>
+    <!----------------DECKS----------------->
 
     <div id="game-board">
 
@@ -33,8 +64,9 @@
         </div>
     </div>
 
-
-
-    <script type="module" src="script.js"></script>
+    <script src="../communs_scripts/back.js"></script>
+    <script src="../anime_characters/characters_loader.js"></script>
+    <script src="script.js"></script>
+    <script src="../communs_scripts/decks.js"></script>
 </body>
 </html>

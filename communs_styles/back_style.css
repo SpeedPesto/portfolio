@@ -1,0 +1,57 @@
+#back {
+  background-color: transparent;
+  border: 1px solid #939396;
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-shadow: 0 0 32px #ffffff;
+  padding: 1rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.4s, color 0.3, background-color 0.3s ease, text-shadow 0.2s ease;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  overflow: hidden;
+}
+
+#back:hover {
+  color: #cf6060;
+  border-color: #cf6060;
+  text-shadow: 0 0 64px #ffffff;
+}
+
+#back::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: conic-gradient(from 0deg, #ff5a5a var(--angle), transparent var(--angle));
+    box-shadow: 0 0 32px #ff5a5a, 0 0 64px #ff5a5a;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    --angle: 0deg;
+    z-index: 2;
+    transition: none;
+}
+
+#back:hover::after {
+    animation: draw-border 0.3s linear forwards;
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes draw-border {
+    from { --angle: 0deg; }
+    to   { --angle: 360deg; }
+}
+
+#back > * {
+    position: relative;
+    z-index: 3;
+}

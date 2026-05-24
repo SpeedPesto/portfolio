@@ -1,4 +1,3 @@
-const game_board = document.getElementById('game-board');
 const refresh_button = document.getElementById('refresh-button');
 const result = document.getElementById('result');
 const pixelated_image = document.getElementById('pixelated-image');
@@ -9,15 +8,18 @@ const historique_container = document.getElementById('historique-container');
 const historique_title = document.getElementById('historique-title');
 
 const characters = [];
+
+
 let current_character = null;
 let current_img = null;
 let current_pixelisation = 200;
 
+const game_board = document.getElementById('game-board');
 game_board.style.visibility = 'hidden';
 
 const loader = document.createElement('div');
 loader.id = 'loader';
-loader.textContent = 'Chargement...';
+loader.textContent = 'Aucun deck choisis... OH CHOISIS DU CON !';
 document.body.appendChild(loader);
 
 load_character();
@@ -27,23 +29,13 @@ function wait(ms) {
 }
 
 async function load_character() {
-    try {
-
-        await wait(500); // Simulate loading time
-
-        const response = await fetch('characters.json');
-        const data = await response.json();
-
-        characters.push(...data.naruto);
-
-        loader.remove();
-        game_board.style.visibility = 'visible';
-        start_game();
-
-    } catch (error) {
-        loader.textContent = 'Erreur de chargement 😕';
-        console.error(error);
+    while (characters.length === 0) {
+        await wait(1000);
     }
+
+    loader.remove();
+    game_board.style.visibility = 'visible';
+    start_game();
 }
 
 function start_game() {
@@ -100,16 +92,16 @@ guess_button.addEventListener('click', () => {
     const name = document.createElement('p');
     name.textContent = guess_input.value.trim();
         
-    const character = characters.find(c => c.nom === guess_input.value.trim());
+    const character = characters.find(c => c.name === guess_input.value.trim());
     const src = character?.src;
 
     const img = document.createElement('img');
-    img.src = src ? src : 'image.webp';
+    img.src = src ? src : '../images/unknow.webp';
 
     bad_guess.appendChild(name);
     bad_guess.appendChild(img);
 
-    if (guess !== current_character.nom.toLowerCase()) {
+    if (guess !== current_character.name.toLowerCase()) {
         bad_guess.style.animation = 'shake 0.5s';
         bad_guess.classList.add('bad_guess');
     } else {
@@ -119,7 +111,7 @@ guess_button.addEventListener('click', () => {
     historique_container.prepend(bad_guess);
     historique_title.textContent = 'Historique des devinettes | attemps : ' + historique_container.children.length;
         
-    if (guess !== current_character.nom.toLowerCase()) {
+    if (guess !== current_character.name.toLowerCase()) {
         guess_input.value = '';
 
         if (current_pixelisation > 20) {
@@ -141,7 +133,7 @@ guess_input.addEventListener('input', () => {
     dd.innerHTML = '';
 
     if (val) {
-        const filtered_characters = characters.filter(character => character.nom.toLowerCase().startsWith(val));
+        const filtered_characters = characters.filter(character => character.name.toLowerCase().startsWith(val));
     
         if (filtered_characters.length > 0) {
             open_dropdown();
@@ -150,12 +142,12 @@ guess_input.addEventListener('input', () => {
             const li = document.createElement('li');
 
             const span = document.createElement('span');
-            span.textContent = character.nom;
+            span.textContent = character.name;
 
             li.appendChild(span);
 
             li.addEventListener('click', () => {
-                guess_input.value = character.nom;
+                guess_input.value = character.name;
                 close_dropdown();
             });
 

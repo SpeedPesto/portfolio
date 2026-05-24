@@ -1,0 +1,1692 @@
+{
+  "naruto_classic": [
+    {
+      "name": "Naruto Uzumaki",
+      "src": "https://static.wikia.nocookie.net/naruto/images/f/f1/Naruto_Partie_I.png/revision/latest/scale-to-width-down/1200?cb=20151201180820&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 46800,
+      "type": "jinchūriki",
+      "village": "konoha",
+      "capacites": "futon, doton, yoton, magneton, boil release, yinton, yangton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Sasuke Uchiha",
+      "src": "https://static.wikia.nocookie.net/naruto/images/1/1e/Sasuke_Uchiwa.png/revision/latest?cb=20150507111747&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 46200,
+      "type": "ninja déserteur",
+      "village": "konoha",
+      "capacites": "katon, raiton, suiton, doton, futon, inton",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Sakura Haruno",
+      "src": "https://static.wikia.nocookie.net/naruto/images/5/5f/Sakura_Partie_1.png/revision/latest/scale-to-width-down/1200?cb=20200607210950&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 24800,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton, suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Kakashi Hatake",
+      "src": "https://static.wikia.nocookie.net/naruto/images/2/27/Kakashi_Hatake.png/revision/latest?cb=20141108182016&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 35900,
+      "type": "kage",
+      "village": "konoha",
+      "capacites": "raiton, suiton, doton, katon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Itachi Uchiha",
+      "src": "https://static.wikia.nocookie.net/naruto/images/e/ef/Itachi_Uchiwa_2.png/revision/latest/scale-to-width-down/1200?cb=20161101162942&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 41900,
+      "type": "ninja déserteur",
+      "village": "konoha",
+      "capacites": "katon, suiton, futon, inton, yinton",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Madara Uchiha",
+      "src": "https://static.wikia.nocookie.net/naruto/images/e/e4/Madara_%28%C3%A9pisode%29.png/revision/latest/scale-to-width-down/985?cb=20131116222301&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 48500,
+      "type": "ninja déserteur",
+      "village": "konoha",
+      "capacites": "katon, futon, raiton, doton, suiton, inton, yinton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Obito Uchiha",
+      "src": "https://static.wikia.nocookie.net/naruto/images/0/0c/Obito_Uchiwa.png/revision/latest?cb=20160620152653&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 45100,
+      "type": "ninja déserteur",
+      "village": "konoha",
+      "capacites": "katon, futon, raiton, doton, suiton, inton, yinton",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Minato Namikaze",
+      "src": "https://static.wikia.nocookie.net/naruto/images/e/e7/Minato_Namikaze_V2.PNG/revision/latest?cb=20200611113232&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 43800,
+      "type": "kage",
+      "village": "konoha",
+      "capacites": "futon, raiton, katon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Kushina Uzumaki",
+      "src": "https://static.wikia.nocookie.net/naruto/images/0/08/Kushina_Uzumaki_2.png/revision/latest/scale-to-width-down/1200?cb=20170813190811&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 21400,
+      "type": "jinchūriki",
+      "village": "konoha",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Hinata Hyûga",
+      "src": "https://static.wikia.nocookie.net/naruto/images/4/43/Hinata_Partie_II.png/revision/latest?cb=20150508121512&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 18300,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "futon, raiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Neji Hyûga",
+      "src": "https://static.wikia.nocookie.net/naruto/images/0/07/Neji_Part_1.png/revision/latest?cb=20150701095606&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 22600,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "futon, doton, suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Gaara",
+      "src": "https://static.wikia.nocookie.net/naruto/images/9/9c/Gaara_Partie_I.jpg/revision/latest?cb=20150525192254&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 37900,
+      "type": "kage",
+      "village": "suna",
+      "capacites": "futon, doton, magneton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Temari",
+      "src": "https://static.wikia.nocookie.net/naruto/images/3/33/Temari_Partie_II.png/revision/latest?cb=20161106180649&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 19800,
+      "type": "ninja",
+      "village": "suna",
+      "capacites": "futon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Kankurô",
+      "src": "https://static.wikia.nocookie.net/naruto/images/0/0f/Kankur%C3%B4.png/revision/latest?cb=20150709181410&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 17200,
+      "type": "ninja",
+      "village": "suna",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Jiraiya",
+      "src": "https://static.wikia.nocookie.net/naruto/images/a/aa/Jiraya.PNG/revision/latest?cb=20130117000023&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 39200,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton, katon, suiton, futon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Tsunade Senju",
+      "src": "https://static.wikia.nocookie.net/naruto/images/e/e6/Tsunade2.png/revision/latest?cb=20161120222345&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 38100,
+      "type": "kage",
+      "village": "konoha",
+      "capacites": "raiton, doton, suiton, katon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Orochimaru",
+      "src": "https://static.wikia.nocookie.net/naruto/images/5/5a/Orochimaru.png/revision/latest/scale-to-width-down/1200?cb=20160822185704&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 40400,
+      "type": "ninja déserteur",
+      "village": "oto",
+      "capacites": "doton, katon, suiton, futon, raiton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Hiruzen Sarutobi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/e/e4/Hiruzen_Sarutobi.png/revision/latest?cb=20150507161512&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 39600,
+      "type": "kage",
+      "village": "konoha",
+      "capacites": "doton, katon, suiton, futon, raiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Asuma Sarutobi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/7/7c/Asuma.png/revision/latest/scale-to-width-down/1200?cb=20210117153743&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 18200,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "futon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Konohamaru Sarutobi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/5/50/Konohamaru.png/revision/latest?cb=20150424203658&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 16400,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "futon, katon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Danzô Shimura",
+      "src": "https://static.wikia.nocookie.net/naruto/images/1/18/Danz%C3%B4.png/revision/latest?cb=20250314232401&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 29400,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "futon",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Shikamaru Nara",
+      "src": "https://static.wikia.nocookie.net/naruto/images/9/9a/Shikamaru_Nara.png/revision/latest/scale-to-width-down/300?cb=20141107180244&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 17300,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Chôji Akimichi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/9/94/Ch%C3%B4ji_Akimichi_Pt_I.png/revision/latest?cb=20150525140141&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 15800,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Ino Yamanaka",
+      "src": "https://static.wikia.nocookie.net/naruto/images/d/dd/Ino.png/revision/latest?cb=20150525121423&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 14900,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Kiba Inuzuka",
+      "src": "https://static.wikia.nocookie.net/naruto/images/2/22/Kiba_Inuzuka.png/revision/latest/scale-to-width-down/300?cb=20150512175714&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 15200,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Shino Aburame",
+      "src": "https://static.wikia.nocookie.net/naruto/images/c/c4/Shino_Aburame_Partie_I.png/revision/latest?cb=20150512221630&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 17600,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton, yangton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Rock Lee",
+      "src": "https://static.wikia.nocookie.net/naruto/images/f/f3/Technique_de_l%27Homme_Ivre.png/revision/latest/scale-to-width-down/985?cb=20150426191555&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 21400,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Gai Maito",
+      "src": "https://static.wikia.nocookie.net/naruto/images/4/42/Ga%C3%AF_Maito.png/revision/latest/scale-to-width-down/1200?cb=20260207104002&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 42800,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Tenten",
+      "src": "https://static.wikia.nocookie.net/naruto/images/c/c9/Tenten_Partie_I.png/revision/latest?cb=20170812145555&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 12800,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "futon, doton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Sai",
+      "src": "https://static.wikia.nocookie.net/naruto/images/e/e2/Sa%C3%AF.png/revision/latest/scale-to-width-down/1200?cb=20160830163903&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 17100,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "yinton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Yamato",
+      "src": "https://static.wikia.nocookie.net/naruto/images/6/64/Yamato.png/revision/latest?cb=20140309171146&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 25700,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton, suiton, mokuton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Iruka Umino",
+      "src": "https://static.wikia.nocookie.net/naruto/images/b/b8/Iruka_Umino.png/revision/latest?cb=20160212185548&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 9600,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Shizune",
+      "src": "https://static.wikia.nocookie.net/naruto/images/4/4d/Shizune.png/revision/latest?cb=20140819181708&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 15800,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton, suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Anko Mitarashi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/f/f3/Anko.png/revision/latest/scale-to-width-down/1200?cb=20240529153229&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 14300,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton, katon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Kurenai Yûhi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/c/c6/Kurenai_Partie_I.png/revision/latest?cb=20210405192609&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 17600,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "doton, yinton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Zabuza Momochi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/3/37/Zabuza_Momochi.png/revision/latest?cb=20160220221228&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 24400,
+      "type": "ninja déserteur",
+      "village": "kiri",
+      "capacites": "suiton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Haku",
+      "src": "https://static.wikia.nocookie.net/naruto/images/9/90/Haku.png/revision/latest?cb=20150809114957&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 21900,
+      "type": "ninja",
+      "village": "kiri",
+      "capacites": "suiton, futon, hyoton",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Kabuto Yakushi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/1/17/Kabuto_Yakushi.png/revision/latest/scale-to-width-down/1200?cb=20141122194046&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 34600,
+      "type": "ninja déserteur",
+      "village": "konoha",
+      "capacites": "doton, suiton, yinton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Deidara",
+      "src": "https://static.wikia.nocookie.net/naruto/images/0/06/Deidara.png/revision/latest?cb=20131007234317&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 31200,
+      "type": "ninja déserteur",
+      "village": "iwa",
+      "capacites": "doton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Sasori",
+      "src": "https://static.wikia.nocookie.net/naruto/images/f/f7/Sasori.png/revision/latest/scale-to-width-down/1200?cb=20161005210021&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 32600,
+      "type": "ninja déserteur",
+      "village": "suna",
+      "capacites": "doton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Hidan",
+      "src": "https://static.wikia.nocookie.net/naruto/images/6/6e/Hidan2.png/revision/latest?cb=20151018130413&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 26800,
+      "type": "ninja déserteur",
+      "village": "yu",
+      "capacites": "aucun",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Kakuzu",
+      "src": "https://static.wikia.nocookie.net/naruto/images/5/57/Kakuzu.png/revision/latest?cb=20160418210749&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 35200,
+      "type": "ninja déserteur",
+      "village": "taki",
+      "capacites": "katon, futon, raiton, suiton, doton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Konan",
+      "src": "https://preview.redd.it/what-are-your-thought-about-konan-v0-t0444fic5c6f1.jpeg?width=640&crop=smart&auto=webp&s=4f974aa4b278804020b87cdf82693490562b9431",
+      "genre": "femme",
+      "puissance": 29100,
+      "type": "ninja déserteur",
+      "village": "ame",
+      "capacites": "futon, suiton, doton",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Nagato",
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a0/NagatoNaruto.png",
+      "genre": "homme",
+      "puissance": 44100,
+      "type": "ninja déserteur",
+      "village": "ame",
+      "capacites": "futon, katon, suiton, doton, raiton, yinton, yangton",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Shisui Uchiha",
+      "src": "https://static.wikia.nocookie.net/naruto/images/6/6c/Uchiwa_Shisui.png/revision/latest/scale-to-width-down/1200?cb=20140413192831&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 37200,
+      "type": "ninja",
+      "village": "konoha",
+      "capacites": "katon, futon, raiton, inton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Hashirama Senju",
+      "src": "https://static.wikia.nocookie.net/naruto/images/7/7e/Hashirama_Senju.png/revision/latest?cb=20250929221130&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 47900,
+      "type": "kage",
+      "village": "konoha",
+      "capacites": "doton, suiton, mokuton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Tobirama Senju",
+      "src": "https://static.wikia.nocookie.net/naruto/images/b/be/Tobirama_Senju.png/revision/latest?cb=20250929221237&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 41100,
+      "type": "kage",
+      "village": "konoha",
+      "capacites": "suiton, doton, raiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Killer Bee",
+      "src": "https://static.wikia.nocookie.net/naruto/images/3/36/Killer_Bee.png/revision/latest?cb=20110620175645&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 42900,
+      "type": "jinchūriki",
+      "village": "kumo",
+      "capacites": "raiton, futon, suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "A (4e Raikage)",
+      "src": "https://static.wikia.nocookie.net/naruto/images/f/f7/Quatri%C3%A8me_Raikage_2.png/revision/latest?cb=20200315234827&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 40200,
+      "type": "kage",
+      "village": "kumo",
+      "capacites": "raiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Ōnoki",
+      "src": "https://static.wikia.nocookie.net/naruto/images/a/a2/%C3%94noki.png/revision/latest?cb=20140908101438&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 39100,
+      "type": "kage",
+      "village": "iwa",
+      "capacites": "doton, futon, raiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Utakata",
+      "src": "https://static.wikia.nocookie.net/naruto/images/2/27/Utakata.png/revision/latest?cb=20130922144052&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 28600,
+      "type": "jinchūriki",
+      "village": "kiri",
+      "capacites": "suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Kisame Hoshigaki",
+      "src": "https://static.wikia.nocookie.net/naruto/images/c/c9/Kisame_Hoshigaki.png/revision/latest?cb=20201231011429&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 37100,
+      "type": "ninja déserteur",
+      "village": "kiri",
+      "capacites": "suiton, doton, futon",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Kimimaro",
+      "src": "https://static.wikia.nocookie.net/naruto/images/a/a7/Kimimaro.png/revision/latest?cb=20141109182436&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 28100,
+      "type": "ninja",
+      "village": "oto",
+      "capacites": "doton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Jûgo",
+      "src": "https://static.wikia.nocookie.net/naruto/images/a/ad/J%C3%BBgo.png/revision/latest?cb=20160424133553&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 24300,
+      "type": "ninja",
+      "village": "oto",
+      "capacites": "aucun",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Karin Uzumaki",
+      "src": "https://static.wikia.nocookie.net/naruto/images/5/50/Karin.png/revision/latest?cb=20201231015434&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 16400,
+      "type": "ninja",
+      "village": "kusa",
+      "capacites": "aucun",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Suigetsu Hôzuki",
+      "src": "https://static.wikia.nocookie.net/naruto/images/3/3b/Suigetsu_H%C3%B4zuki.png/revision/latest?cb=20130428231214&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 23800,
+      "type": "ninja",
+      "village": "kiri",
+      "capacites": "suiton",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Kankurô",
+      "src": "https://static.wikia.nocookie.net/naruto/images/0/0f/Kankur%C3%B4.png/revision/latest?cb=20150709181410&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 17200,
+      "type": "ninja",
+      "village": "suna",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Hanzô",
+      "src": "https://static.wikia.nocookie.net/naruto/images/6/6b/Hanz%C3%B4.png/revision/latest?cb=20150525181414&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 35700,
+      "type": "ninja",
+      "village": "ame",
+      "capacites": "futon, katon, suiton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Yahiko",
+      "src": "https://static.wikia.nocookie.net/naruto/images/4/43/Yahiko_2.png/revision/latest/scale-to-width-down/1200?cb=20160131195123&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 19600,
+      "type": "ninja",
+      "village": "ame",
+      "capacites": "suiton",
+      "role": "protagoniste"
+    }
+  ],
+
+  "naruto_quator": [
+    {
+      "name": "Tayuya",
+      "src": "https://static.wikia.nocookie.net/naruto/images/3/3a/Tayuya.png/revision/latest?cb=20160911150903&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 21400,
+      "type": "ninja",
+      "village": "oto",
+      "capacites": "futon",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Kidômaru",
+      "src": "https://static.wikia.nocookie.net/naruto/images/a/a7/Kimimaro.png/revision/latest?cb=20141109182436&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 22300,
+      "type": "ninja",
+      "village": "oto",
+      "capacites": "doton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Jirôbô",
+      "src": "https://static.wikia.nocookie.net/naruto/images/4/4f/Jir%C3%B4b%C3%B4.png/revision/latest?cb=20201231194528&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 20900,
+      "type": "ninja",
+      "village": "oto",
+      "capacites": "doton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Sakon",
+      "src": "https://static.wikia.nocookie.net/naruto/images/a/ad/Sakon.png/revision/latest?cb=20200704095502&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 23200,
+      "type": "ninja",
+      "village": "oto",
+      "capacites": "aucun",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Ukon",
+      "src": "https://static.wikia.nocookie.net/naruto/images/c/cc/Sakon_et_Ukon_Marque_Maudite_Niveau_2.png/revision/latest?cb=20200519125855&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 22800,
+      "type": "ninja",
+      "village": "oto",
+      "capacites": "aucun",
+      "role": "antagoniste"
+    }
+  ],
+
+  "naruto_7epeistes": [
+    {
+      "name": "Fuguki Suikazan",
+      "src": "https://static.wikia.nocookie.net/naruto/images/8/8f/Fuguki_Suikazan_dans_l%27anime.png/revision/latest?cb=20201206212944&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 33200,
+      "type": "ninja",
+      "village": "kiri",
+      "capacites": "suiton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Jinin Akebino",
+      "src": "https://static.wikia.nocookie.net/naruto/images/1/19/Jinin_Akebino2.png/revision/latest?cb=20210216235741&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 28700,
+      "type": "ninja",
+      "village": "kiri",
+      "capacites": "doton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Jinpachi Munashi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/4/4c/Jinpachi_Munashi.png/revision/latest?cb=20140522182753&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 29400,
+      "type": "ninja",
+      "village": "kiri",
+      "capacites": "katon",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Kushimaru Kuriarare",
+      "src": "https://static.wikia.nocookie.net/naruto/images/4/4b/Kushimaru_Kuriarare.png/revision/latest?cb=20171021182331&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 30100,
+      "type": "ninja",
+      "village": "kiri",
+      "capacites": "raiton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Mangetsu Hôzuki",
+      "src": "https://static.wikia.nocookie.net/naruto/images/9/95/Mangetsu_Hozuki_Anime.png/revision/latest?cb=20160418132248&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 34900,
+      "type": "ninja",
+      "village": "kiri",
+      "capacites": "suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Ameyuri Ringo",
+      "src": "https://static.wikia.nocookie.net/naruto/images/5/57/Ameyuri_Ringo_Anime.png/revision/latest/scale-to-width-down/1200?cb=20201112231002&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 31500,
+      "type": "ninja",
+      "village": "kiri",
+      "capacites": "raiton",
+      "role": "antagoniste"
+    }
+  ],
+  
+  "naruto_bidjus_et_invocations": [
+    {
+      "name": "Gamabunta",
+      "src": "https://static.wikia.nocookie.net/naruto/images/8/84/Gamabunta.png/revision/latest/scale-to-width-down/1200?cb=20150802160052&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 33400,
+      "type": "invocation",
+      "village": "mont myôboku",
+      "capacites": "suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Enma",
+      "src": "https://static.wikia.nocookie.net/naruto/images/a/aa/Enma.png/revision/latest?cb=20140529184328&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 31800,
+      "type": "invocation",
+      "village": "mont myôboku",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Jûbi",
+      "src": "https://tse2.mm.bing.net/th/id/OIP.oUPSB0MfXSVLhK7_JdXfbQHaEL?pid=Api",
+      "genre": "aucun",
+      "puissance": 50000,
+      "type": "bijû",
+      "village": "aucun",
+      "capacites": "doton, suiton, katon, futon, raiton, yinton, yangton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Kyûbi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/0/09/Kurama.png/revision/latest?cb=20150525190416&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 47200,
+      "type": "bijû",
+      "village": "aucun",
+      "capacites": "katon, yinton, yangton",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Shukaku",
+      "src": "https://static.wikia.nocookie.net/naruto/images/9/99/Shukaku.png/revision/latest?cb=20150510221210&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 38100,
+      "type": "bijû",
+      "village": "suna",
+      "capacites": "futon, magneton",
+      "role": "anti-héros"
+    },
+    {
+      "name": "Matatabi",
+      "src": "https://static.wikia.nocookie.net/naruto/images/a/a7/Matatabi.png/revision/latest?cb=20151018131635&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 39200,
+      "type": "bijû",
+      "village": "kumo",
+      "capacites": "katon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Isobu",
+      "src": "https://static.wikia.nocookie.net/naruto/images/6/67/Sanbi.png/revision/latest/scale-to-width-down/1200?cb=20170121154147&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 36500,
+      "type": "bijû",
+      "village": "kiri",
+      "capacites": "suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Son Gokû",
+      "src": "https://static.wikia.nocookie.net/naruto/images/0/06/Son_Gok%C3%BB.png/revision/latest/scale-to-width-down/1200?cb=20140520224106&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 40100,
+      "type": "bijû",
+      "village": "iwa",
+      "capacites": "katon, doton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Kokuô",
+      "src": "https://static.wikia.nocookie.net/naruto/images/9/96/Gobi.jpg/revision/latest?cb=20111110180506&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 39400,
+      "type": "bijû",
+      "village": "iwa",
+      "capacites": "suiton, katon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Saiken",
+      "src": "https://static.wikia.nocookie.net/naruto/images/4/4a/Six-Tails_Anime.jpg/revision/latest/scale-to-width-down/1200?cb=20120212223235&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 38700,
+      "type": "bijû",
+      "village": "kiri",
+      "capacites": "suiton",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Chômei",
+      "src": "https://static.wikia.nocookie.net/naruto/images/5/52/Nanabi.jpg/revision/latest?cb=20130603191134&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 38900,
+      "type": "bijû",
+      "village": "taki",
+      "capacites": "futon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Gyûki",
+      "src": "https://static.wikia.nocookie.net/naruto/images/3/3c/Gy%C3%BBki.png/revision/latest?cb=20140520230600&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 44800,
+      "type": "bijû",
+      "village": "kumo",
+      "capacites": "raiton, suiton",
+      "role": "protagoniste"
+    }
+  ],
+
+  "naruto_pain": [
+    {
+      "name": "Pain (Tendô)",
+      "src": "http://lejardinducollectionneur.fr/cdn/shop/files/x_btn66815-8.jpg?v=1717271904",
+      "genre": "homme",
+      "puissance": 43200,
+      "type": "ninja déserteur",
+      "village": "ame",
+      "capacites": "futon, katon, suiton, doton, raiton, yinton, yangton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Pain (Chikushôdô)",
+      "src": "https://static.wikia.nocookie.net/naruto/images/2/28/Chikush%C3%B4d%C3%B4.png/revision/latest?cb=20170219151524&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 31100,
+      "type": "ninja déserteur",
+      "village": "ame",
+      "capacites": "futon, katon, suiton, doton, raiton, yinton, yangton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Pain (Shuradô)",
+      "src": "https://static.wikia.nocookie.net/naruto/images/6/66/Shurad%C3%B4.png/revision/latest?cb=20150729175431&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 29600,
+      "type": "ninja déserteur",
+      "village": "ame",
+      "capacites": "futon, katon, suiton, doton, raiton, yinton, yangton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Pain (Ningendô)",
+      "src": "https://static.wikia.nocookie.net/naruto/images/b/b7/Ningend%C3%B4.png/revision/latest?cb=20140323163720&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 28100,
+      "type": "ninja déserteur",
+      "village": "ame",
+      "capacites": "futon, katon, suiton, doton, raiton, yinton, yangton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Pain (Jigokudô)",
+      "src": "https://static.wikia.nocookie.net/naruto/images/1/16/Jigokud%C3%B4.png/revision/latest/scale-to-width-down/284?cb=20260326223659&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 28700,
+      "type": "ninja déserteur",
+      "village": "ame",
+      "capacites": "futon, katon, suiton, doton, raiton, yinton, yangton",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Pain (Gakidô)",
+      "src": "https://static.wikia.nocookie.net/naruto/images/3/30/Gakid%C3%B4.png/revision/latest?cb=20201111211622&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 30100,
+      "type": "ninja déserteur",
+      "village": "ame",
+      "capacites": "futon, katon, suiton, doton, raiton, yinton, yangton",
+      "role": "antagoniste"
+    }
+  ],
+
+  "jojo_characters": [
+    {
+      "name": "Jonathan Joestar",
+      "src": "https://static.wikia.nocookie.net/jjba/images/b/b9/JonathanFilm.png/revision/latest?cb=20210628134746&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 9800,
+      "type": "utilisateur de hamon",
+      "village": "angleterre",
+      "capacites": "hamon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Dio Brando",
+      "src": "https://static.wikia.nocookie.net/personnages-lgbtqia/images/d/d2/Dio_Brando.jpg/revision/latest?cb=20240520180724&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 16200,
+      "type": "vampire",
+      "village": "angleterre",
+      "capacites": "aucun",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Erina Pendleton",
+      "src": "https://static.wikia.nocookie.net/jjba/images/f/f9/Erina_Pendleton_%28anime%29.png/revision/latest/scale-to-width/360?cb=20140406144827&path-prefix=fr",
+      "genre": "femme",
+      "puissance": 600,
+      "type": "simple humain",
+      "village": "angleterre",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Robert E. O. Speedwagon",
+      "src": "https://static.wikia.nocookie.net/jjba/images/c/c2/Smokey_et_Speedwagon.png/revision/latest?cb=20140420071616&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 1800,
+      "type": "simple humain",
+      "village": "angleterre",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "George Joestar",
+      "src": "https://static.wikia.nocookie.net/jjba/images/c/c6/George_Joestar_%28Anime%29.png/revision/latest/scale-to-width/360?cb=20131126000200&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 400,
+      "type": "simple humain",
+      "village": "angleterre",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Will Anthonio Zeppeli",
+      "src": "https://static.wikia.nocookie.net/jjba/images/2/29/William.Antonio.Zeppeli.full.1356146.jpg/revision/latest?cb=20140405123103&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 9200,
+      "type": "utilisateur de hamon",
+      "village": "italie",
+      "capacites": "hamon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Poco",
+      "src": "https://static.wikia.nocookie.net/jjba/images/0/06/Poco_Anime_4480.png/revision/latest/scale-to-width/360?cb=20140409135301&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 250,
+      "type": "simple humain",
+      "village": "angleterre",
+      "capacites": "aucun",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Tonpetty",
+      "src": "https://static.wikia.nocookie.net/jjba/images/5/56/Tonpetty_%28Anime%29.png/revision/latest?cb=20131018203216",
+      "genre": "homme",
+      "puissance": 8400,
+      "type": "utilisateur de hamon",
+      "village": "tibet",
+      "capacites": "hamon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Dire",
+      "src": "https://static.wikia.nocookie.net/jjba/images/8/87/Dire_anime.png/revision/latest/scale-to-width/360?cb=20140408154930&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 7100,
+      "type": "utilisateur de hamon",
+      "village": "italie",
+      "capacites": "hamon",
+      "role": "protagoniste"
+    },
+    {
+      "name": "Straizo",
+      "src": "https://static.wikia.nocookie.net/jjba/images/c/c7/Straizo_Anime.jpg/revision/latest/scale-to-width/360?cb=20140410163759&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 13800,
+      "type": "utilisateur de hamon",
+      "village": "tibet",
+      "capacites": "hamon",
+      "role": "antagoniste"
+    },
+    {
+      "name": "Jack l'Éventreur",
+      "src": "https://static.wikia.nocookie.net/jjba/images/5/57/Jack_l%27%C3%A9ventreur.png/revision/latest/scale-to-width/360?cb=20140412081954&path-prefix=fr",
+      "genre": "homme",
+      "puissance": 2600,
+      "type": "simple humain",
+      "village": "angleterre",
+      "capacites": "aucun",
+      "role": "antagoniste"
+    },
+    {
+    "name": "Wang Chan",
+    "src": "https://static.wikia.nocookie.net/jjba/images/0/0e/Wang_Chan.png/revision/latest/scale-to-width/360?cb=20140411102422&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 5400,
+    "type": "zombie",
+    "village": "chine",
+    "capacites": "aucun",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Tarkus",
+    "src": "https://static.wikia.nocookie.net/jjba/images/d/d2/Sword_taker_Tarkus.png/revision/latest?cb=20140602132148",
+    "genre": "homme",
+    "puissance": 9200,
+    "type": "zombie",
+    "village": "angleterre",
+    "capacites": "super force",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Bruford",
+    "src": "https://static.wikia.nocookie.net/villains/images/b/b1/Ora_Ora_Overdrive_Bruford.png/revision/latest/scale-to-width-down/1200?cb=20260220080635",
+    "genre": "homme",
+    "puissance": 8700,
+    "type": "zombie",
+    "village": "angleterre",
+    "capacites": "super vitesse",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Joseph Joestar",
+    "src": "https://static.wikia.nocookie.net/jjba/images/4/44/Joseph_anime_part2.png/revision/latest/scale-to-width/360?cb=20140510163402&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 14800,
+    "type": "utilisateur de hamon",
+    "village": "angleterre",
+    "capacites": "hamon",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Caesar Anthonio Zeppeli",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/54/CaesarA.png/revision/latest/scale-to-width/360?cb=20250131153707",
+    "genre": "homme",
+    "puissance": 13200,
+    "type": "utilisateur de hamon",
+    "village": "italie",
+    "capacites": "hamon",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Lisa Lisa",
+    "src": "https://static.wikia.nocookie.net/p__/images/a/af/Lisa_Lisa_Anime.png/revision/latest?cb=20240624154806&path-prefix=protagonist",
+    "genre": "femme",
+    "puissance": 14400,
+    "type": "utilisateur de hamon",
+    "village": "italie",
+    "capacites": "hamon",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Rudol von Stroheim",
+    "src": "https://static.wikia.nocookie.net/villains-fr/images/3/3d/Stroheim_cyborg.png/revision/latest?cb=20201221201935&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 10300,
+    "type": "cyborg",
+    "village": "allemagne",
+    "capacites": "super force",
+    "role": "anti-héros"
+  },
+  {
+    "name": "Smokey Brown",
+    "src": "https://static.wikia.nocookie.net/jjba/images/8/87/SmokeyBrown_%28Anime%29.png/revision/latest?cb=20170225212031",
+    "genre": "homme",
+    "puissance": 450,
+    "type": "simple humain",
+    "village": "états-unis",
+    "capacites": "aucun",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Suzi Q",
+    "src": "https://static.wikia.nocookie.net/jjba/images/f/f6/Suzieq.png/revision/latest?cb=20170222093358",
+    "genre": "femme",
+    "puissance": 350,
+    "type": "simple humain",
+    "village": "italie",
+    "capacites": "aucun",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Santana",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/51/Santana_anime.jpg/revision/latest?cb=20140421122301&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 18200,
+    "type": "être du pilier",
+    "village": "mexique",
+    "capacites": "super force, regeneration",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Wamuu",
+    "src": "https://static.wikia.nocookie.net/jjba/images/c/cd/WamuuA.png/revision/latest/scale-to-width/360?cb=20140614212125&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 23600,
+    "type": "être du pilier",
+    "village": "rome antique",
+    "capacites": "super vitesse, super force",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Esidisi",
+    "src": "https://static.wikia.nocookie.net/jjba/images/a/ac/Esidisi_%28anime%29.png/revision/latest/scale-to-width/360?cb=20140723104739&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 22800,
+    "type": "être du pilier",
+    "village": "rome antique",
+    "capacites": "super force, regeneration",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Kars",
+    "src": "https://static.wikia.nocookie.net/villains-fr/images/2/2b/Kars.png/revision/latest?cb=20210128160840&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 31500,
+    "type": "être du pilier",
+    "village": "rome antique",
+    "capacites": "super vitesse, super force, regeneration",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Messina",
+    "src": "https://static.wikia.nocookie.net/jjba/images/a/a4/Messina_anime.jpg/revision/latest?cb=20140420072530&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 7800,
+    "type": "utilisateur de hamon",
+    "village": "italie",
+    "capacites": "hamon",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Loggins",
+    "src": "https://static.wikia.nocookie.net/jjba/images/7/7b/Loggins_anime.jpg/revision/latest?cb=20140420071936&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 7600,
+    "type": "utilisateur de hamon",
+    "village": "italie",
+    "capacites": "hamon",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Jotaro Kujo",
+    "src": "https://static.wikia.nocookie.net/jjba/images/4/41/Jotaro_article_crop_stardust_crusaders_color_v10_074.png/revision/latest/scale-to-width/360?cb=20140606170434&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 26700,
+    "type": "utilisateur de stand",
+    "village": "japon",
+    "capacites": "star platinum",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Muhammad Avdol",
+    "src": "https://static.wikia.nocookie.net/heros/images/d/de/Muhammad_Avdol_Infobox.png/revision/latest?cb=20200820114430&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 21400,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "magician's red",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Noriaki Kakyoin",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/53/NoriakiKakyoinAnime.png/revision/latest?cb=20200304001834&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 20300,
+    "type": "utilisateur de stand",
+    "village": "japon",
+    "capacites": "hierophant green",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Jean Pierre Polnareff",
+    "src": "https://static.wikia.nocookie.net/heroes-fr/images/6/6a/JeanPierreEfield.png/revision/latest?cb=20210303162458&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 22100,
+    "type": "utilisateur de stand",
+    "village": "france",
+    "capacites": "silver chariot",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Iggy",
+    "src": "https://static.wikia.nocookie.net/heros/images/4/46/Iggy_JoJ_Anime_Infobox.png/revision/latest?cb=20210507121056&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 18300,
+    "type": "utilisateur de stand",
+    "village": "états-unis",
+    "capacites": "the fool",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Holy Kujo",
+    "src": "https://static.wikia.nocookie.net/jjba/images/a/af/HolyKujo_Anime.png/revision/latest?cb=20150207172416",
+    "genre": "femme",
+    "puissance": 900,
+    "type": "utilisateur de stand",
+    "village": "japon",
+    "capacites": "stand inconnu",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Enya Geil",
+    "src": "https://static.wikia.nocookie.net/jjba/images/0/0e/Enya_Geil_Anime_Infobox.png/revision/latest?cb=20191126121524&path-prefix=fr",
+    "genre": "femme",
+    "puissance": 14200,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "justice",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Hol Horse",
+    "src": "https://static.wikia.nocookie.net/jjba/images/2/26/HolHorseMangaColor.jpg/revision/latest/scale-to-width/360?cb=20180826212435",
+    "genre": "homme",
+    "puissance": 17300,
+    "type": "utilisateur de stand",
+    "village": "états-unis",
+    "capacites": "emperor",
+    "role": "antagoniste"
+  },
+  {
+    "name": "J. Geil",
+    "src": "https://static.wikia.nocookie.net/create-garden/images/4/4e/JJBA_-_J._Geil_et_Hanged_Man.png/revision/latest?cb=20200228195013&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 16400,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "hanged man",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Vanilla Ice",
+    "src": "https://static.wikia.nocookie.net/jjba/images/c/cf/V-Ice_Anime.png/revision/latest?cb=20210403031814&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 24800,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "cream",
+    "role": "antagoniste"
+  },
+  {
+    "name": "N'Doul",
+    "src": "https://static.wikia.nocookie.net/jjba/images/9/9d/N%27DoulOAV.png/revision/latest/scale-to-width/360?cb=20210623145551&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 18600,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "geb",
+    "role": "antagoniste"
+  },
+    {
+    "name": "Mariah",
+    "src": "https://static.wikia.nocookie.net/jjba/images/3/36/Mariah_in_the_anime.png/revision/latest?cb=20150705104946&path-prefix=fr",
+    "genre": "femme",
+    "puissance": 17100,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "bastet",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Pet Shop",
+    "src": "https://static.wikia.nocookie.net/jjba/images/2/2f/Petshopanime.PNG.png/revision/latest?cb=20210223235901&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 22900,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "horus",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Oingo",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/56/OingoAnime.png/revision/latest?cb=20201223161617&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 8300,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "khnum",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Boingo",
+    "src": "https://static.wikia.nocookie.net/jjba/images/f/f5/Boingofullcolor.png/revision/latest/scale-to-width/360?cb=20200712170508&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 7600,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "tohth",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Daniel J. D'Arby",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/5f/D%27arby_portrait.png/revision/latest?cb=20201229153200&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 18200,
+    "type": "utilisateur de stand",
+    "village": "états-unis",
+    "capacites": "osiris",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Telence T. D'Arby",
+    "src": "https://static.wikia.nocookie.net/jjba/images/b/b8/TD%27ArbyJJBA.png/revision/latest/scale-to-width/360?cb=20150630210624&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 19400,
+    "type": "utilisateur de stand",
+    "village": "états-unis",
+    "capacites": "atum",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Steely Dan",
+    "src": "https://static.wikia.nocookie.net/jjba/images/4/42/Steely_Dan_Manga_Infobox.png/revision/latest/scale-to-width/360?cb=20140723085157&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 14600,
+    "type": "utilisateur de stand",
+    "village": "états-unis",
+    "capacites": "the lovers",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Rubber Soul",
+    "src": "https://static.wikia.nocookie.net/jjba/images/2/29/Rubber_Soul_Anime_Infobox.png/revision/latest?cb=20140531064857&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 15800,
+    "type": "utilisateur de stand",
+    "village": "japon",
+    "capacites": "yellow temperance",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Gray Fly",
+    "src": "https://static.wikia.nocookie.net/jjba/images/c/c9/Gray_Fly_anime.jpg/revision/latest/thumbnail/width/360/height/360?cb=20140427064239&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 11900,
+    "type": "utilisateur de stand",
+    "village": "états-unis",
+    "capacites": "tower of gray",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Forever",
+    "src": "https://static.wikia.nocookie.net/jjba/images/f/f2/Forever_Anime_Infobox.png/revision/latest?cb=20140517085553&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 18400,
+    "type": "utilisateur de stand",
+    "village": "océan atlantique",
+    "capacites": "strength",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Captain Tennille",
+    "src": "https://static.wikia.nocookie.net/jjba/images/b/bf/Captaine_Tenille.png/revision/latest?cb=20140510101141&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 13200,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "dark blue moon",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Devo",
+    "src": "https://static.wikia.nocookie.net/jjba/images/d/d6/Devo_Anime_nfobox.png/revision/latest/scale-to-width/360?cb=20191124121542&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 14900,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "ebony devil",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Cameo",
+    "src": "https://static.wikia.nocookie.net/jjba/images/9/93/Cameo_full_color.png/revision/latest?cb=20141110131654&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 16200,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "judgement",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Midler",
+    "src": "https://static.wikia.nocookie.net/jjba/images/2/29/Midler.png/revision/latest?cb=20210223124922&path-prefix=fr",
+    "genre": "femme",
+    "puissance": 17300,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "high priestess",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Mannish Boy",
+    "src": "https://static.wikia.nocookie.net/jjba/images/7/74/Mannish_Boy_manga.png/revision/latest?cb=20140809130818&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 12100,
+    "type": "utilisateur de stand",
+    "village": "états-unis",
+    "capacites": "death thirteen",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Alessi",
+    "src": "https://static.wikia.nocookie.net/jjba/images/7/70/AlessiAnime.png/revision/latest?cb=20200712165940&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 14100,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "sethan",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Kenny G",
+    "src": "https://static.wikia.nocookie.net/jjba/images/2/24/KennyG_Anime.png/revision/latest/scale-to-width/360?cb=20210403030605&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 11100,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "tenore sax",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Arabia Fats",
+    "src": "https://static.wikia.nocookie.net/jjba/images/7/7f/Arabia_Fats_Anime.png/revision/latest?cb=20140806111904&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 16900,
+    "type": "utilisateur de stand",
+    "village": "arabie saoudite",
+    "capacites": "the sun",
+    "role": "antagoniste"
+  },
+  {
+    "name": "ZZ",
+    "src": "https://static.wikia.nocookie.net/jjba/images/8/88/ZZ_Anime_Infobox.png/revision/latest?cb=20140708062533",
+    "genre": "homme",
+    "puissance": 15100,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "wheel of fortune",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Nena",
+    "src": "https://static.wikia.nocookie.net/jjba/images/1/1a/NenaOAV.png/revision/latest/scale-to-width/360?cb=20210623145048&path-prefix=fr",
+    "genre": "femme",
+    "puissance": 13800,
+    "type": "utilisateur de stand",
+    "village": "inde",
+    "capacites": "empress",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Chaka",
+    "src": "https://static.wikia.nocookie.net/jjba/images/3/37/Chaka1.png/revision/latest?cb=20180422221039&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 17400,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "anubis",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Khan",
+    "src": "https://static.wikia.nocookie.net/jjba/images/4/45/Khan_Anime.png/revision/latest?cb=20201229152311&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 17100,
+    "type": "utilisateur de stand",
+    "village": "égypte",
+    "capacites": "anubis",
+    "role": "antagoniste"
+  }
+  ],
+
+  "jojo_stands": [
+    {
+    "name": "Star Platinum",
+    "src": "https://static.wikia.nocookie.net/jjba/images/b/b8/Star_Platinum_Anime_Partie6.png/revision/latest?cb=20211109182214&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 39200,
+    "type": "stand",
+    "village": "japon",
+    "capacites": "super vitesse, super force, arrêt du temps",
+    "role": "protagoniste"
+  },
+  {
+    "name": "The World",
+    "src": "https://static.wikia.nocookie.net/jjba/images/d/d8/The_world_c252.png/revision/latest?cb=20160413152044",
+    "genre": "homme",
+    "puissance": 40100,
+    "type": "stand",
+    "village": "angleterre",
+    "capacites": "super vitesse, super force, arrêt du temps",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Hermit Purple",
+    "src": "https://static.wikia.nocookie.net/all-worlds-alliance/images/1/1f/PurpleHermit_AnimeAV.png/revision/latest?cb=20190106093514",
+    "genre": "homme",
+    "puissance": 16300,
+    "type": "stand",
+    "village": "angleterre",
+    "capacites": "divination, lianes spirituelles",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Magician’s Red",
+    "src": "https://static.wikia.nocookie.net/jjba/images/0/06/MagiciansredanimePF.jpg/revision/latest?cb=20200710113446&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 28600,
+    "type": "stand",
+    "village": "égypte",
+    "capacites": "manipulation du feu, vol",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Hierophant Green",
+    "src": "https://static.wikia.nocookie.net/jjba/images/9/9c/Hierophantgurin.png/revision/latest?cb=20200710123010&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 27100,
+    "type": "stand",
+    "village": "japon",
+    "capacites": "attaque à distance, possession, tentacules",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Silver Chariot",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/51/SilverChariotPartie5A.png/revision/latest?cb=20210625103227&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 31500,
+    "type": "stand",
+    "village": "france",
+    "capacites": "super vitesse, escrime",
+    "role": "protagoniste"
+  },
+  {
+    "name": "The Fool",
+    "src": "https://static.wikia.nocookie.net/jjba/images/9/91/ThefoolJojoAnime.jpg/revision/latest?cb=20200710130013&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 22800,
+    "type": "stand",
+    "village": "égypte",
+    "capacites": "manipulation du sable, transformation",
+    "role": "protagoniste"
+  },
+  {
+    "name": "Cream",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/5f/Cream.Infobox.Anime.png/revision/latest?cb=20180522080739&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 34700,
+    "type": "stand",
+    "village": "égypte",
+    "capacites": "effacement de matière, dimension du vide",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Justice",
+    "src": "https://static.wikia.nocookie.net/jjba/images/d/d2/Justice.Infobox.Manga.png/revision/latest/scale-to-width/360?cb=20180523115151&path-prefix=fr",
+    "genre": "femme",
+    "puissance": 25800,
+    "type": "stand",
+    "village": "égypte",
+    "capacites": "brouillard, contrôle des corps",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Emperor",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/5a/Emperor.Infobox.Manga.png/revision/latest/scale-to-width/360?cb=20180523173559&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 24300,
+    "type": "stand",
+    "village": "états-unis",
+    "capacites": "balles guidées",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Hanged Man",
+    "src": "https://static.wikia.nocookie.net/jjba/images/a/ab/Hanged.Man.Infobox.Anime.png/revision/latest?cb=20180523201250&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 28900,
+    "type": "stand",
+    "village": "inde",
+    "capacites": "super vitesse, déplacement dans les reflets",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Geb",
+    "src": "https://static.wikia.nocookie.net/jjba/images/3/30/Geb2.png/revision/latest?cb=20180520173046&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 26400,
+    "type": "stand",
+    "village": "égypte",
+    "capacites": "manipulation de l'eau",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Bastet",
+    "src": "https://static.wikia.nocookie.net/jjba/images/8/8b/Bastet.Force.Mangn%C3%A9tique.png/revision/latest?cb=20180521121121&path-prefix=fr",
+    "genre": "femme",
+    "puissance": 17200,
+    "type": "stand",
+    "village": "égypte",
+    "capacites": "magnétisme",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Horus",
+    "src": "https://static.wikia.nocookie.net/jjba/images/a/a7/Horus.Infobox.Anime.png/revision/latest?cb=20180521155442&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 27600,
+    "type": "stand",
+    "village": "égypte",
+    "capacites": "manipulation de la glace, vol",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Khnum",
+    "src": "https://static.wikia.nocookie.net/jjba/images/8/8e/Khnum.Infobox.Anime.png/revision/latest?cb=20180521094513&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 12100,
+    "type": "stand",
+    "village": "égypte",
+    "capacites": "transformation du visage",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Tohth",
+    "src": "https://static.wikia.nocookie.net/jjba/images/4/45/Tohth.Infobox.Anime.png/revision/latest?cb=20180521095916&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 11800,
+    "type": "stand",
+    "village": "égypte",
+    "capacites": "prédiction du futur",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Osiris",
+    "src": "https://static.wikia.nocookie.net/jjba/images/f/f7/Osiris.Infobox.Anime.png/revision/latest/scale-to-width/360?cb=20180521132702&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 21400,
+    "type": "stand",
+    "village": "états-unis",
+    "capacites": "vol d'âme",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Atum",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/57/Atum.Infobox.Anime.png/revision/latest?cb=20180521163806&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 22300,
+    "type": "stand",
+    "village": "états-unis",
+    "capacites": "lecture d'âme, vol d'âme",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Lovers",
+    "src": "https://static.wikia.nocookie.net/jjba/images/5/59/Lover_t%C3%A9l%C3%A9.png/revision/latest?cb=20140724083427&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 15400,
+    "type": "stand",
+    "village": "états-unis",
+    "capacites": "miniaturisation, attaque cérébrale",
+    "role": "antagoniste"
+  },
+  {
+    "name": "Yellow Temperance",
+    "src": "https://static.wikia.nocookie.net/jjba/images/b/bb/YellowTemperance.Anime.infobox.png/revision/latest?cb=20180622120022&path-prefix=fr",
+    "genre": "homme",
+    "puissance": 23500,
+    "type": "stand",
+    "village": "japon",
+    "capacites": "absorption, métamorphose",
+    "role": "antagoniste"
+  }
+  ]
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 
 * {
@@ -8,8 +8,8 @@
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    font-family: 'Playfair Display', serif;
+    background: #2f3a6e;
     min-height: 100vh; /* vh = viewport height, prend toute la hauteur de la fenêtre */
     display: flex; /* Le flex permet de centrer les éléments enfants */
     align-items: center; /* centre les elements horizontalement */
@@ -31,6 +31,10 @@ body {
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #container {
@@ -42,67 +46,37 @@ body {
     background-color:rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 20px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     position: relative;
 }
 
-.b {
-    width: 20%;
-    height: auto;
-    margin: 2%;
-    padding: 2%;
-    background: rgba(255, 255, 255, 0.45);
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, width 0.2s ease; /* transition: [propriété] [durée] [accélération]; */
-}
-
-.b:hover {
-    transform: translateY(-5px); /* translateY(-5px) : déplace l'élément de 5 pixels vers le haut */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-}
-
-.b:active {
-    transform: translateY(0); /* translateY(0) : remet l'élément à sa position d'origine */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.b.active {
-    transform: translateY(5px) scale(0.9);
-    filter: grayscale(100%);
-}
-
-.b p {
-    font-family: "Luckiest Guy", sans-serif;
-    font-size: 70%;
-    color: #252525;
-    margin-bottom: 10px;
-}
-
-.b img {
-    width: 120px;
-    height: 100px;
-    border-radius: 8px;
-    object-fit: cover;
-}
-
 .mod {
-    width: 10%;
+    font-family: 'Courier New', monospace;
+    width: 7.5rem;
     height: auto;
     margin: 1%;
     padding: 1%;
-    background: rgba(27, 27, 27, 0.45);
+    background: transparent;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, width 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, width 0.2s ease, scale 0.2s ease, color 0.2s ease, background-color 0.2s ease;
     font-family: "Luckiest Guy", sans-serif;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
     font-size: 70%;
     color: #b1b1b1;
-    position: absolute;
+    position: absolute; 
+}
+
+.mod:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.123);
+    background-color: rgba(255, 255, 255, 0.1);
+    scale: 1.02;
+    color: #ffffff;
 }
 
 #ajouter {
@@ -132,18 +106,24 @@ body {
 
 #clic{
     position: absolute;
-    cursor: default;
-    top: 1%;
-    left: 1%;
-    color: #24243e;
+    cursor: pointer;
+    bottom: 1%;
+    right: 1%;
+    color: #818181;
     text-decoration: none;
+    border: 1px solid #3b6d9c52;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 #fait{
     position: absolute;
-    cursor: default;
+    cursor: pointer;
     bottom: 1%;
     left: 1%;
-    color: #262252;
+    color: #818181;
     text-decoration: none;
+    border: 1px solid #3b6d9c52;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
