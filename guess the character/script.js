@@ -5,6 +5,7 @@ const dd = document.getElementById('dd');
 const characters = [];
 const refresh_btn = document.getElementById('refresh-btn');
 const rules_btn = document.getElementById('rules-btn');
+const reveal_btn = document.getElementById('reveal-btn');
 let current_character = null;
 
 const game_board = document.getElementById('game-board');
@@ -182,4 +183,52 @@ function resetGame() {
 
 rules_btn.addEventListener('click', () => {
   document.getElementById('rules-container').classList.toggle('show');
+});
+
+reveal_btn.addEventListener('click', () => {
+  const li = document.createElement('li');
+  const img = document.createElement('img');
+  const name = document.createElement('p');
+
+  img.src = current_character.src;
+  img.alt = current_character.name;
+  name.textContent = current_character.name;
+
+  li.appendChild(img);
+  li.appendChild(name);
+
+  const Gender = document.createElement('span');
+  Gender.classList.add('same');
+  Gender.textContent = `Gender: ${current_character.genre}`;
+
+  const Puissance = document.createElement('span');
+  Puissance.classList.add('same');
+  Puissance.textContent = `Puissance: ${current_character.puissance}`;
+
+  const Type = document.createElement('span');
+  Type.classList.add('same');
+  Type.textContent = `Type: ${current_character.type}`;
+
+  const Village = document.createElement('span');
+  Village.classList.add('same');
+  Village.textContent = `Village: ${current_character.village}`;
+
+  const Capacitys = document.createElement('span');
+  Capacitys.classList.add('same');
+  Capacitys.textContent = `Capacity: ${current_character.capacites}`;
+
+  const role = document.createElement('span');
+  role.classList.add('same');
+  role.textContent = `Role: ${current_character.role}`;
+
+  li.appendChild(Gender);
+  li.appendChild(Puissance);
+  li.appendChild(Type);
+  li.appendChild(Village);
+  li.appendChild(Capacitys);
+  li.appendChild(role);
+
+  li.style.backgroundColor = '#75b67773';
+
+  document.getElementById('submit-characters').prepend(li);
 });

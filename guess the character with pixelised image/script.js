@@ -6,6 +6,9 @@ const guess_input = document.getElementById('guess-input');
 const dd = document.getElementById('dd');
 const historique_container = document.getElementById('historique-container');
 const historique_title = document.getElementById('historique-title');
+const start_pixel_input = document.getElementById('start-pixel-input');
+const pixel_per_fauts_input = document.getElementById('pixel-per-fautes-input');
+const done = document.getElementById('done');
 
 const characters = [];
 
@@ -13,6 +16,17 @@ const characters = [];
 let current_character = null;
 let current_img = null;
 let current_pixelisation = 200;
+let pixel_per_fautes = 20;
+
+if (localStorage.getItem('pixel_per_fautes')) {
+    pixel_per_fautes = parseInt(localStorage.getItem('pixel_per_fautes'));
+    pixel_per_fauts_input.value = pixel_per_fautes;
+}
+
+if (localStorage.getItem('start_pixel')) {
+    current_pixelisation = parseInt(localStorage.getItem('start_pixel'));
+    start_pixel_input.value = current_pixelisation;
+}
 
 const game_board = document.getElementById('game-board');
 game_board.style.visibility = 'hidden';
@@ -64,12 +78,12 @@ function pixelate(img, taille = 10) {
   return canvas;
 }
 
-function new_image(taille = current_pixelisation) {
+function new_image() {
     current_img = new Image();
     current_img.crossOrigin = 'anonymous';
 
     current_img.onload = () => {
-        const canvas = pixelate(current_img, taille);
+        const canvas = pixelate(current_img, current_pixelisation);
         pixelated_image.src = canvas.toDataURL();
     };
 
@@ -114,8 +128,8 @@ guess_button.addEventListener('click', () => {
     if (guess !== current_character.name.toLowerCase()) {
         guess_input.value = '';
 
-        if (current_pixelisation > 20) {
-            current_pixelisation -= 20;
+        if (current_pixelisation > pixel_per_fautes) {
+            current_pixelisation -= pixel_per_fautes;
         }else {
             current_pixelisation = 1;
         }
@@ -175,3 +189,36 @@ document.addEventListener('keydown', (event) => {
 
 function close_dropdown() { dd.classList.remove('show')}
 function open_dropdown() { dd.classList.add('show') }
+
+start_pixel_input.addEventListener('change', () => {
+    const value = parseInt(start_pixel_input.value);
+    start_pixel_input.value = value;
+
+    if (value >= 20 && value <= 500) {
+        current_pixelisation = value;
+        localStorage.setItem('start_pixel', current_pixelisation);
+    }
+});
+
+pixel_per_fauts_input.addEventListener('change', () => {
+    const value = parseInt(pixel_per_fauts_input.value);
+    pixel_per_fauts_input.value = value;
+
+    if (value >= 10 && value <= 100) {
+        pixel_per_fautes = value;
+        localStorage.setItem('pixel_per_fautes', pixel_per_fautes);
+    }
+});
+
+done.addEventListener('click', () => {
+    const start_pixel_input_value = parseInt(start_pixel_input.value);
+    const pixel_per_fautes_input_value = parseInt(pixel_per_fauts_input.value);
+
+    current_pixelisation = start_pixel_input_value;
+    localStorage.setItem('start_pixel', current_pixelisation);
+
+    pixel_per_fautes = pixel_per_fautes_input_value;
+    localStorage.setItem('pixel_per_fautes', pixel_per_fautes);
+
+    new_image();
+});

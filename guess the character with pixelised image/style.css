@@ -237,3 +237,84 @@ h1 {
   border-color: #f44336;
   background: #2e1a1a;
 }
+
+#start-pixel-p {
+  position: absolute;
+  top: 45%;
+  left: 20px;
+  transform: translateY(-45%);
+
+  font-size: 0.9rem;
+}
+
+#start-pixel-input {
+  width: 200px;
+  background: #1a1a22;
+  border: 1px solid #2e2e3a;
+  border-radius: 8px;
+  color: #e8e6f0;
+  font-size: 0.95rem;
+  padding: 0.7rem 1rem;
+  outline: none;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#pixel-per-fautes-p {
+  position: absolute;
+  top: 55%;
+  left: 20px;
+  transform: translateY(-55%);
+
+  font-size: 0.9rem;
+}
+
+#pixel-per-fautes-input {
+  width: 200px;
+  background: #1a1a22;
+  border: 1px solid #2e2e3a;
+  border-radius: 8px;
+  color: #e8e6f0;
+  font-size: 0.95rem;
+  padding: 0.7rem 1rem;
+  outline: none;
+  position: absolute;
+  left: 20px;
+  top: 60%;
+  transform: translateY(-60%);
+
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#done {
+  position: absolute;
+  top: 67%;
+  left: 20px;
+  transform: translateY(-67%);
+
+  background: #5a5aff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+}
+
+#done:hover {
+  background: #4848e0;
+  box-shadow: 0 0 16px rgba(90, 90, 255, 0.3);
+}
+
+span {
+  color: #606078;
+  font-size: 0.7rem;
+  font-style: italic;
+}
