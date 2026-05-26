@@ -93,7 +93,8 @@ function new_image(taille=current_pixelisation) {
 refresh_button.addEventListener('click', () => {
     historique_container.innerHTML = '';
     guess_input.value = '';
-    current_pixelisation = 200;
+    current_pixelisation = parseInt(localStorage.getItem('start_pixel'));
+    pixel_per_fautes = parseInt(localStorage.getItem('pixel_per_fautes'));
     start_game();
 });
 
