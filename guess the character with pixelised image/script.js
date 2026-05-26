@@ -78,12 +78,12 @@ function pixelate(img, taille = 10) {
   return canvas;
 }
 
-function new_image() {
+function new_image(taille=current_pixelisation) {
     current_img = new Image();
     current_img.crossOrigin = 'anonymous';
 
     current_img.onload = () => {
-        const canvas = pixelate(current_img, current_pixelisation);
+        const canvas = pixelate(current_img, taille);
         pixelated_image.src = canvas.toDataURL();
     };
 
