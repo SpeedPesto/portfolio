@@ -3,35 +3,7 @@ const character_input = document.getElementById('character-input');
 const submit_btn = document.getElementById('submit-btn');
 const dd = document.getElementById('dd');
 const characters = [];
-const refresh_btn = document.getElementById('refresh-btn');
-const rules_btn = document.getElementById('rules-btn');
-const reveal_btn = document.getElementById('reveal-btn');
 let current_character = null;
-
-const game_board = document.getElementById('game-board');
-game_board.style.visibility = 'hidden';
-
-const loader = document.createElement('div');
-loader.id = 'loader';
-loader.textContent = 'Aucun deck choisis... OH CHOISIS DU CON !';
-document.body.appendChild(loader);
-
-
-load_character();
-
-function wait(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-async function load_character() {
-  while (characters.length === 0) {
-        await wait(1000);
-  }
-
-    loader.remove();
-    game_board.style.visibility = 'visible';
-    start_game();
-}
 
 function start_game() {
     const random_index = Math.floor(Math.random() * characters.length);
@@ -166,10 +138,6 @@ submit_btn.addEventListener('click', () => {
   document.getElementById('submit-characters').prepend(li);
 });
 
-refresh_btn.addEventListener('click', () => {
-  resetGame();
-});
-
 function resetGame() {
   
   random_index = Math.floor(Math.random() * characters.length);
@@ -181,11 +149,7 @@ function resetGame() {
   document.getElementById('submit-characters').innerHTML = '';
 }
 
-rules_btn.addEventListener('click', () => {
-  document.getElementById('rules-container').classList.toggle('show');
-});
-
-reveal_btn.addEventListener('click', () => {
+function revealCharacter() {
   const li = document.createElement('li');
   const img = document.createElement('img');
   const name = document.createElement('p');
@@ -231,4 +195,4 @@ reveal_btn.addEventListener('click', () => {
   li.style.backgroundColor = '#75b67773';
 
   document.getElementById('submit-characters').prepend(li);
-});
+}

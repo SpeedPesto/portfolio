@@ -18,7 +18,10 @@ projets.forEach(projet => {
                 break; 
             case "histoire":
                 window.open('histoire/index.html', '_self');
-                break;    
+                break;
+            case "wordle":
+                window.open('anime wordle/index.html', '_self');
+                break;
             default:
                 alert("Projet non trouvé !");
         }

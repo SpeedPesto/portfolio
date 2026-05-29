@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0D0D1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#game-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#world-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    padding: 20px;
+}
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 5px;
+    margin-bottom: 10px;
+
+    background-color: #cecece00;
+}
+
+.letter-box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e945608a ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1a1a2e69;
+    transform: scale(0.95);
+}
+
+.letter-box.current {
+    border: 2px solid #e94560b6;
+    background-color: #1A1A2E;
+    transform: scale(1);
+}
+
+.letter-box.correct {
+    background-color: #4caf4f;
+    border: none;
+}
+
+.letter-box.misplaced {
+    background-color: #b1ae00;
+    border: none;
+}
+
+.letter-box.false {
+    background-color: #6e6e6ec7;
+    border: none;
+}
+
+.letter-box.good-letter {
+    border: 2px solid #e945608a ;
+    background-color: #1a1a2e69;
+}
+
+#keyboard-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+
+.keyboard-button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e94560b6;
+    background-color: #1a1a2e69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.keyboard-button:hover {
+    background-color: #1a1a2e;
+}
+
+#space {
+    width: 100px;
+}
+
+#backspace {
+    width: 150px;
+}
+
+#enter {
+    width: 100px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime wordle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../communs_styles/back_style.css">
+    <link rel="stylesheet" href="../communs_styles/decks_style.css">
+    <link rel="stylesheet" href="../communs_styles/loader.css">
+    <link rel="stylesheet" href="../communs_styles/rules_reveal_refresh.css">
+</head>
+<body>
+
+    <!----------------BACK----------------->
+    <button id="back">↩ Retour</button>
+    <!----------------BACK----------------->
+
+    <!----------------DECKS----------------->
+    <button id="decks">Choisirs les decks</button>
+
+    <div id="deck-container">
+        <button id="naruto-decks">Decks Naruto</button>
+        <button id="jojo-decks">Decks Jojo</button>
+
+        <button id="validate">Valider</button>
+
+         <!--PERSONNAGES DE NARUTO-->
+        <button id="naruto-classic" class="character">Classics Characters</button>
+        <button id="naruto-7epeistes" class="character">7 épéistes Characters</button>
+        <button id="naruto-pain" class="character">Pain Characters</button>
+        <button id="naruto-bidjus-et-invocations" class="character">Bidju & Invocation</button>
+        <button id="naruto-quator" class="character">Quator Characters</button>
+
+        <!--PERSONNAGES DE JOJO-->
+        <button id="jojo-characters" class="character">Personnages</button>
+        <button id="jojo-stands" class="character">Stands</button>
+
+        <button id="retour" class="retour">✘</button>
+    </div>
+    <!----------------DECKS----------------->
+
+
+    <div id="game-board">
+
+        <!--REVEAL BUTTON-->
+        <button id="reveal-btn">reveal</button>
+        <!--REVEAL BUTTON-->
+
+        <!--RULES BUTTON-->
+        <button id="rules-btn">règles</button>
+        <div id="rules-container">
+            <h2>Règles du jeu :</h2>
+            <p></p>
+
+            <p>Le but est de deviner le bon personnage</p>
+            <p>tu écris le nom d'un personnage et ça te renvoie le nombre de lettres: bien placés, mal placés ou incorrects.</p>
+            <p>tu as 6 essais pour trouver le personnage</p>
+
+            <span>tellement cool le jeu qu'il propose des règles :)</span>
+        </div>
+        <!--RULES BUTTON-->
+
+        <!--REFRESH BUTTON-->
+        <button id="refresh-btn">refresh</button>
+        <!--REFRESH BUTTON-->
+
+
+        <div id="world-container">
+
+        </div>
+
+        <div id="keyboard-container">
+            <button id="a" class="keyboard-button">A</button>
+            <button id="z" class="keyboard-button">Z</button>
+            <button id="e" class="keyboard-button">E</button>
+            <button id="r" class="keyboard-button">R</button>
+            <button id="t" class="keyboard-button">T</button>
+            <button id="y" class="keyboard-button">Y</button>
+            <button id="u" class="keyboard-button">U</button>
+            <button id="i" class="keyboard-button">I</button>
+            <button id="o" class="keyboard-button">O</button>
+            <button id="p" class="keyboard-button">P</button>
+            <button id="q" class="keyboard-button">Q</button>
+            <button id="s" class="keyboard-button">S</button>
+            <button id="d" class="keyboard-button">D</button>
+            <button id="f" class="keyboard-button">F</button>
+            <button id="g" class="keyboard-button">G</button>
+            <button id="h" class="keyboard-button">H</button>
+            <button id="j" class="keyboard-button">J</button>
+            <button id="k" class="keyboard-button">K</button>
+            <button id="l" class="keyboard-button">L</button>
+            <button id="m" class="keyboard-button">M</button>
+            <button id="w" class="keyboard-button">W</button>
+            <button id="x" class="keyboard-button">X</button>
+
+            <button id="space" class="keyboard-button">Space</button>
+            <button id="enter" class="keyboard-button">Enter</button>
+            <button id="c" class="keyboard-button">C</button>
+            <button id="v" class="keyboard-button">V</button>
+            <button id="b" class="keyboard-button">B</button>
+            <button id="n" class="keyboard-button">N</button>
+            <button id="backspace" class="keyboard-button">Backspace</button>
+        </div>
+    </div>
+
+    <script src="../anime_characters/characters_loader.js"></script>
+    <script src="script.js"></script>
+    <script src="../communs_scripts/decks.js"></script>
+    <script src="../communs_scripts/back.js"></script>
+    <script src="../communs_scripts/rules_reveal_refresh.js"></script>
+</body>
+</html>
