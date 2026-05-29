@@ -56,7 +56,6 @@ function start_game() {
 
 
     nextLigne(true);
-    console.log(current_world);
 }
 
 document.addEventListener("keydown", (event) => {
