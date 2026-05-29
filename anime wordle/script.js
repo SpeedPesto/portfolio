@@ -31,7 +31,7 @@ const letter_box_apparition_animation = [
 
 function start_game() {
     const random_index = Math.floor(Math.random() * characters.length);
-    current_world = characters[random_index].name.split(" ")[0];
+    current_world = characters[random_index].name;
     
     world_container.innerHTML = "";
     for (let i = 0; i < 7; i++) {
