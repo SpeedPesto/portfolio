@@ -70,10 +70,10 @@ modifier.addEventListener("click", () => {
     if (isSuppressing)
     {
         isSuppressing = false;
-        supprimer.style.backgroundColor = "rgba(27, 27, 27, 0.45)";
+        supprimer.classList.remove("active");
     }
 
-    modifier.style.backgroundColor = ismodifying ? "rgba(50, 122, 170, 0.45)" : "rgba(27, 27, 27, 0.45)";
+    modifier.classList.toggle("active", ismodifying);
 })
 
 const supprimer = document.getElementById("supprimer")
@@ -82,10 +82,10 @@ supprimer.addEventListener("click", () => {
     if (ismodifying)
     {
         ismodifying = false;
-        modifier.style.backgroundColor = "rgba(27, 27, 27, 0.45)";
+        modifier.classList.remove("active");
     }
 
-    supprimer.style.backgroundColor = isSuppressing ? "rgba(219, 20, 20, 0.45)" : "rgba(27, 27, 27, 0.45)";
+    supprimer.classList.toggle("active", isSuppressing);
 })
 
 const copier = document.getElementById("copier")
