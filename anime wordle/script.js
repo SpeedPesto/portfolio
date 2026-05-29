@@ -31,10 +31,10 @@ const letter_box_apparition_animation = [
 
 function start_game() {
     const random_index = Math.floor(Math.random() * characters.length);
-    current_world = characters[random_index].name;
+    current_world = characters[random_index].name.split(" ")[0];
     
     world_container.innerHTML = "";
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 7; i++) {
         const ligne = document.createElement("div");
         ligne.setAttribute("id", `ligne-${i + 1}`);
         ligne.classList.add("ligne");
@@ -45,6 +45,11 @@ function start_game() {
             letter_box.setAttribute("id", `letter-box-${i + 1}`);
             ligne.appendChild(letter_box);
         }
+
+        const character_number = document.createElement("div");
+        character_number.classList.add("character-number");
+        character_number.textContent = `${current_world.length}`;
+        ligne.appendChild(character_number);
 
     world_container.appendChild(ligne);
     }
