@@ -31,7 +31,7 @@ const letter_box_apparition_animation = [
 
 function start_game() {
     const random_index = Math.floor(Math.random() * characters.length);
-    current_world = "T'es un fdp de merde connard de fdp de merde"
+    current_world = characters[random_index].name;
     
     world_container.innerHTML = "";
     for (let i = 0; i < 7; i++) {
@@ -54,7 +54,7 @@ function start_game() {
     world_container.appendChild(ligne);
     }
 
-    console.log(current_world);
+
     nextLigne(true);
 }
 
